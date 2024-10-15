@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navBar {
+  height: 80px;
+  background-color: #3a9fd8;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  /* position: fixed; */
+  /* width: 100%; */
+  z-index: 1000;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 80px;
+  align-items: center;
+}

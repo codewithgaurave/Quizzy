@@ -1,0 +1,4976 @@
+{
+    "C": {
+      "Easy": [
+          {
+            "id": 1,
+            "question": "Which of the following is a correct syntax to declare a variable in C?",
+            "options": ["int x[];", "int x:;", "int x;", "int x();"],
+            "answer": 2
+          },
+          {
+            "id": 2,
+            "question": "Which of the following is a correct header file for standard input/output functions in C?",
+            "options": ["<stlib.h>", "<stdio.h>", "<conio.h>", "<stdinp.h>"],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "question": "Which of the following is not a valid variable name declaration in C?",
+            "options": ["int var_1;", "int 1var;", "int var1;", "int $var;"],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "question": "What is the result of 5 % 2 in C?",
+            "options": ["1", "0", "2", "3"],
+            "answer": 0
+          },
+          {
+            "id": 5,
+            "question": "Which of the following is the correct syntax to access array elements in C?",
+            "options": ["arr[1]", "arr<1>", "arr1[]", "arr(1)"],
+            "answer": 0
+          },
+          {
+            "id": 6,
+            "question": "Which of the following is the correct format specifier for a double data type?",
+            "options": ["%lf", "%d", "%ld", "%f"],
+            "answer": 0
+          },
+          {
+            "id": 7,
+            "question": "Which of the following is a preprocessor directive in C?",
+            "options": ["return 0;", "#define", "scanf()", "printf()"],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "question": "Which of the following is used to terminate a C statement?",
+            "options": [":", ";", ",", "'"],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "question": "Which function is used to print something on the console in C?",
+            "options": ["print()", "console()", "printf()", "output()"],
+            "answer": 2
+          },
+          {
+            "id": 10,
+            "question": "Which loop is guaranteed to execute at least once?",
+            "options": ["foreach", "while", "do-while", "for"],
+            "answer": 2
+          },
+          {
+            "id": 11,
+            "question": "Which of the following is not a valid data type in C?",
+            "options": ["int", "bool", "char", "double"],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "question": "Which of the following operators has the highest precedence in C?",
+            "options": ["=", "-", "+", "*"],
+            "answer": 3
+          },
+          {
+            "id": 13,
+            "question": "Which function is used to allocate memory dynamically in C?",
+            "options": ["malloc()", "free()", "calloc()", "alloc()"],
+            "answer": 0
+          },
+          {
+            "id": 14,
+            "question": "What is the output of the following code: printf(\"%d\", 10 > 5);?",
+            "options": ["0", "5", "10", "1"],
+            "answer": 3
+          },
+          {
+            "id": 15,
+            "question": "Which of the following functions is used to compare two strings in C?",
+            "options": ["strlen()", "strcpy()", "strcmp()", "strcat()"],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "question": "Which of the following cannot be used as the starting character for a variable name?",
+            "options": ["Variable", "_variable", "1variable", "variable1"],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "question": "Which of the following is the correct syntax for a for loop in C?",
+            "options": ["for(i++ < 10)", "for(i = 10; i++)", "for(10 > i; i++)", "for(i = 0; i < 10; i++)"],
+            "answer": 3
+          },
+          {
+            "id": 18,
+            "question": "What does the break statement do in a loop?",
+            "options": ["Terminates the loop", "Resets the loop", "Pauses the loop", "Skips an iteration"],
+            "answer": 0
+          },
+          {
+            "id": 19,
+            "question": "What is the return type of malloc() function?",
+            "options": ["int", "void*", "void", "char"],
+            "answer": 1
+          },
+          {
+            "id": 20,
+            "question": "Which function is used to convert a string to an integer in C?",
+            "options": ["atof()", "strtol()", "atoi()", "strtoint()"],
+            "answer": 2
+          },
+          {
+            "id": 21,
+            "question": "Which of the following is used to represent a constant in C?",
+            "options": ["int const", "for loop", "#define", "printf()"],
+            "answer": 2
+          },
+          {
+            "id": 22,
+            "question": "What is the size of a char data type in C?",
+            "options": ["2 bytes", "1 byte", "4 bytes", "8 bytes"],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "question": "Which function is used to copy a string in C?",
+            "options": ["strcmp()", "strcat()", "strlen()", "strcpy()"],
+            "answer": 3
+          },
+          {
+            "id": 24,
+            "question": "Which operator is used for logical AND in C?",
+            "options": ["&&", "||", "&", "!"],
+            "answer": 0
+          },
+          {
+            "id": 25,
+            "question": "Which keyword is used to return a value from a function?",
+            "options": ["exit", "break", "continue", "return"],
+            "answer": 3
+          },
+          {
+            "id": 26,
+            "question": "What is the output of the following code: printf(\"%d\", 5/2);?",
+            "options": ["2", "1", "3", "2.5"],
+            "answer": 0
+          },
+          {
+            "id": 27,
+            "question": "Which of the following is used to define a constant in C?",
+            "options": ["const", "final", "define()", "int const"],
+            "answer": 0
+          },
+          {
+            "id": 28,
+            "question": "What is the default value of a local variable in C?",
+            "options": ["NULL", "Garbage value", "1", "0"],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "question": "Which of the following is used to store multiple values of the same data type in C?",
+            "options": ["Array", "Union", "Pointer", "Structure"],
+            "answer": 0
+          },
+          {
+            "id": 30,
+            "question": "What is the correct syntax for declaring a pointer in C?",
+            "options": ["int ptr[];", "int *ptr;", "int ptr();", "int *ptr[];"],
+            "answer": 1
+          },
+          {
+            "id": 31,
+            "question": "Which of the following is not a valid storage class in C?",
+            "options": ["volatile", "auto", "register", "extern"],
+            "answer": 0
+          },
+          {
+            "id": 32,
+            "question": "Which of the following is the correct way to declare a structure in C?",
+            "options": ["class MyStruct {int a;};", "typedef struct {int a;} MyStruct;", "struct MyStruct {int a;};", "structure MyStruct {int a;}"],
+            "answer": 2
+          },
+          {
+            "id": 33,
+            "question": "Which operator is used for bitwise OR in C?",
+            "options": ["||", "^", "&", "|"],
+            "answer": 3
+          },
+          {
+            "id": 34,
+            "question": "What is the value of EOF in C?",
+            "options": ["255", "0", "1", "-1"],
+            "answer": 3
+          },
+          {
+            "id": 35,
+            "question": "Which of the following is a valid escape sequence in C?",
+            "options": ["%n", "\\n", "/n", "\\t"],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "question": "Which function is used to read a single character from the user in C?",
+            "options": ["fscanf()", "scanf()", "gets()", "getchar()"],
+            "answer": 3
+          },
+          {
+            "id": 37,
+            "question": "What is the value of an uninitialized pointer in C?",
+            "options": ["1", "Garbage value", "NULL", "0"],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "question": "Which of the following is used to stop the execution of a program?",
+            "options": ["abort()", "terminate()", "exit()", "stop()"],
+            "answer": 2
+          },
+          {
+            "id": 39,
+            "question": "What is the output of the following code: printf(\"%d\", 4 & 1);?",
+            "options": ["0", "3", "4", "1"],
+            "answer": 0
+          },
+          {
+            "id": 40,
+            "question": "Which function is used to get the length of a string in C?",
+            "options": ["strlen()", "strcpy()", "strcmp()", "strcat()"],
+            "answer": 0
+          }        
+      ],
+      "Normal": [
+          {
+            "id": 0,
+            "question": "Which of the following is used to prevent the multiple inclusion of header files in C?",
+            "options": ["#pragma once", "#ifdef", "#ifndef", "#include"],
+            "answer": 0
+          },
+          {
+            "id": 1,
+            "question": "What is the difference between malloc() and calloc() in C?",
+            "options": ["malloc() initializes memory, calloc() doesn't", "calloc() initializes memory to zero, malloc() doesn't", "calloc() is faster than malloc()", "malloc() allocates more memory than calloc()"],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "question": "What is a void pointer in C?",
+            "options": ["A pointer that can point to any data type", "A pointer to a void data type", "A pointer that can point to an int type only", "A pointer to a function"],
+            "answer": 0
+          },
+          {
+            "id": 3,
+            "question": "Which of the following is used to deallocate memory in C?",
+            "options": ["dealloc()", "delete()", "free()", "release()"],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "question": "What is the output of the following code: int a = 5; printf(\"%d\", a++ + ++a);?",
+            "options": ["11", "12", "10", "13"],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "question": "Which of the following is used to handle errors during runtime in C?",
+            "options": ["exception handling", "signal handling", "assert()", "try-catch"],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "question": "What is a segmentation fault in C?",
+            "options": ["Error caused by an invalid memory access", "Error caused by an infinite loop", "Error caused by division by zero", "Error caused by stack overflow"],
+            "answer": 0
+          },
+          {
+            "id": 7,
+            "question": "Which of the following is true for recursion in C?",
+            "options": ["The function calls itself", "It creates infinite loops", "It is always slower than iteration", "Recursion is not allowed in C"],
+            "answer": 0
+          },
+          {
+            "id": 8,
+            "question": "What is the output of the following code: int a = 3; int b = 5; printf(\"%d\", a & b);?",
+            "options": ["3", "1", "7", "0"],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "question": "Which of the following is used to access a member of a structure through a pointer?",
+            "options": [".", "->", "*", "&"],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "question": "Which of the following best describes the purpose of a union in C?",
+            "options": ["To store multiple values of the same data type", "To store different types of data in the same memory location", "To define multiple arrays in one structure", "To allow dynamic memory allocation"],
+            "answer": 1
+          },
+          {
+            "id": 11,
+            "question": "What is the output of the following code: printf(\"%d\", sizeof(char));?",
+            "options": ["4", "1", "8", "2"],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "question": "Which of the following is true about arrays in C?",
+            "options": ["Array elements can have different data types", "Arrays are passed by reference to functions", "Array size cannot be changed at runtime", "Arrays are automatically initialized to zero"],
+            "answer": 2
+          },
+          {
+            "id": 13,
+            "question": "Which of the following statements about pointers is true?",
+            "options": ["A pointer can only point to an int type", "The value of a pointer is the address of the variable it points to", "A pointer can store multiple values", "Pointers cannot be used with structures"],
+            "answer": 1
+          },
+          {
+            "id": 14,
+            "question": "Which function can be used to append a string in C?",
+            "options": ["strcopy()", "strcat()", "strlen()", "strappend()"],
+            "answer": 1
+          },
+          {
+            "id": 15,
+            "question": "What will happen if you try to access an array element out of its bounds in C?",
+            "options": ["Compiler error", "Program will crash", "Random memory access", "It will output a zero"],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "question": "Which of the following is used to calculate the number of elements in an array in C?",
+            "options": ["sizeof(arr) / sizeof(arr[0])", "sizeof(arr) * sizeof(arr[0])", "strlen(arr)", "count(arr)"],
+            "answer": 0
+          },
+          {
+            "id": 17,
+            "question": "What is the output of the following code: printf(\"%d\", 5 << 1);?",
+            "options": ["10", "2", "3", "1"],
+            "answer": 0
+          },
+          {
+            "id": 18,
+            "question": "Which operator is used to find the size of a data type in C?",
+            "options": ["&", "sizeof", "*", "->"],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "question": "What is the result of the expression: (7 > 4) ? 7 : 4;?",
+            "options": ["7", "4", "True", "False"],
+            "answer": 0
+          },
+          {
+            "id": 20,
+            "question": "Which of the following is a correct declaration of a function pointer in C?",
+            "options": ["int *fun_ptr()", "int (*fun_ptr)()", "int (*fun_ptr)[]", "int fun_ptr()"],
+            "answer": 1
+          },
+          {
+            "id": 21,
+            "question": "What does the 'extern' keyword in C do?",
+            "options": ["Defines a function in another file", "Declares a variable without allocating memory", "Defines a function as static", "Specifies a variable as global"],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "question": "Which of the following functions is used to open a file in C?",
+            "options": ["fread()", "fwrite()", "fopen()", "fclose()"],
+            "answer": 2
+          },
+          {
+            "id": 23,
+            "question": "What is the output of the following code: int a = 5, b = 10; printf(\"%d\", a > b ? a : b);?",
+            "options": ["10", "5", "0", "None"],
+            "answer": 0
+          },
+          {
+            "id": 24,
+            "question": "Which of the following is not a valid storage class in C?",
+            "options": ["auto", "static", "volatile", "temporary"],
+            "answer": 3
+          },
+          {
+            "id": 25,
+            "question": "Which of the following can be used to generate a random number in C?",
+            "options": ["rand()", "random()", "randomize()", "generate()"],
+            "answer": 0
+          },
+          {
+            "id": 26,
+            "question": "Which of the following best describes a static variable in C?",
+            "options": ["It retains its value between function calls", "It is automatically destroyed after function execution", "It can only be used in loops", "It can be modified by other functions"],
+            "answer": 0
+          },
+          {
+            "id": 27,
+            "question": "What is the correct syntax to define a macro in C?",
+            "options": ["macro MAX 100", "#define MAX 100", "define MAX 100", "#macro MAX 100"],
+            "answer": 1
+          },
+          {
+            "id": 28,
+            "question": "Which of the following is the correct declaration of a 2D array in C?",
+            "options": ["int arr[3][];", "int arr[][];", "int arr[3][3];", "int arr[];"],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "question": "Which of the following is the correct syntax for typecasting in C?",
+            "options": ["(float)a", "float(a)", "convert(a)", "typecast a to float"],
+            "answer": 0
+          },
+          {
+            "id": 30,
+            "question": "What is the difference between ++a and a++ in C?",
+            "options": ["No difference", "++a increments before usage, a++ increments after usage", "a++ is faster than ++a", "++a can only be used in loops"],
+            "answer": 1
+          },
+          {
+            "id": 31,
+            "question": "What is the output of the following code: printf(\"%d\", 10 % 3);?",
+            "options": ["3", "2", "1", "0"],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "question": "Which of the following statements about dynamic memory allocation is true?",
+            "options": ["It is automatically managed by the system", "It requires manual allocation and deallocation", "It is faster than static memory allocation", "It uses memory from the stack"],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "question": "Which function can be used to compare two strings in C?",
+            "options": ["strcopy()", "strcat()", "strcmp()", "strlen()"],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "question": "What is the output of the following code: printf(\"%d\", 1 << 3);?",
+            "options": ["8", "1", "3", "10"],
+            "answer": 0
+          },
+          {
+            "id": 35,
+            "question": "Which function is used to allocate a block of memory in C?",
+            "options": ["malloc()", "alloc()", "allocblock()", "calloc()"],
+            "answer": 3
+          },
+          {
+            "id": 36,
+            "question": "Which operator is used to access the address of a variable in C?",
+            "options": ["&", "*", "#", "."],
+            "answer": 0
+          },
+          {
+            "id": 37,
+            "question": "What does the 'register' keyword do in C?",
+            "options": ["Allocates memory on the heap", "Requests the compiler to store the variable in a CPU register", "Limits the variable scope to a function", "Prevents modification of the variable"],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "question": "What is the size of an int data type in C?",
+            "options": ["4 bytes", "8 bytes", "2 bytes", "Depends on the compiler"],
+            "answer": 3
+          },
+          {
+            "id": 39,
+            "question": "Which of the following is a valid comment syntax in C?",
+            "options": ["/* This is a comment */", "// This is a comment", "# This is a comment", "Both 1 and 2"],
+            "answer": 3
+          }        
+      ],
+      "Hard": [
+          {
+            "id": 0,
+            "question": "What is the purpose of the 'static' keyword in C when applied to a variable?",
+            "options": ["The variable retains its value even after the function exits", "The variable can only be accessed within the file", "The variable cannot be modified", "The variable is allocated in heap memory"],
+            "answer": 0
+          },
+          {
+            "id": 1,
+            "question": "Which of the following correctly describes the function of 'extern' in C?",
+            "options": ["Defines a global variable", "Declares a variable that is defined in another file", "Creates a function prototype", "Initializes a variable to zero"],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "question": "What will be the output of the following code: printf(\"%d\", sizeof('a'));?",
+            "options": ["1", "4", "8", "2"],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "question": "In C, which of the following can lead to undefined behavior?",
+            "options": ["Using an uninitialized pointer", "Using a valid pointer", "Returning from a function with a static variable", "Using a pointer that points to a constant"],
+            "answer": 0
+          },
+          {
+            "id": 4,
+            "question": "What is the output of the following code: int a = 5; int *p = &a; printf(\"%d\", ++*p);?",
+            "options": ["5", "6", "0", "Error"],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "question": "Which of the following statements about function pointers is true?",
+            "options": ["They can only point to functions with the same signature", "They can be assigned to any variable type", "They cannot be used to call functions", "They can point to multiple functions at the same time"],
+            "answer": 0
+          },
+          {
+            "id": 6,
+            "question": "What is the correct way to declare a structure in C?",
+            "options": ["struct name { int a; char b; };", "struct name(int a, char b);", "struct name(a, b) { int; char; };", "structure name { int a; char b; };"],
+            "answer": 0
+          },
+          {
+            "id": 7,
+            "question": "What will happen if you assign an incompatible type to a pointer?",
+            "options": ["The compiler will give an error", "It will lead to a warning but compile successfully", "The program will crash at runtime", "It will work without any issues"],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "question": "Which of the following is the correct way to allocate memory for an array of 10 integers dynamically?",
+            "options": ["int *arr = (int *)malloc(10);", "int *arr = (int *)malloc(10 * sizeof(int));", "int arr = (int *)malloc(10);", "int arr[10] = malloc();"],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "question": "What is the difference between a struct and a union in C?",
+            "options": ["A struct allocates memory for each member, a union shares memory", "Both are the same", "A union can contain multiple data types, a struct can only contain one", "A struct cannot have functions, a union can"],
+            "answer": 0
+          },
+          {
+            "id": 10,
+            "question": "What is a memory leak in C?",
+            "options": ["When memory is not released after use", "When memory is accessed after it has been freed", "When too much memory is allocated", "When stack memory is exhausted"],
+            "answer": 0
+          },
+          {
+            "id": 11,
+            "question": "What does the 'volatile' keyword indicate in a variable declaration?",
+            "options": ["The variable can be changed unexpectedly", "The variable is constant", "The variable is read-only", "The variable will never change"],
+            "answer": 0
+          },
+          {
+            "id": 12,
+            "question": "What is the output of the following code: printf(\"%d\", 1 << 2 + 1);?",
+            "options": ["2", "4", "8", "1"],
+            "answer": 2
+          },
+          {
+            "id": 13,
+            "question": "Which of the following is a correct way to declare an array of pointers in C?",
+            "options": ["int *arr[10];", "int arr*[10];", "int *arr[];", "int arr[10]*;"],
+            "answer": 0
+          },
+          {
+            "id": 14,
+            "question": "What does 'sizeof' return when applied to an array?",
+            "options": ["The number of elements", "The size of the first element", "The total size in bytes", "The address of the array"],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "question": "What will happen if you call free() on a pointer that has already been freed?",
+            "options": ["Nothing, it's safe", "It will cause a memory leak", "It can cause a segmentation fault", "It will not compile"],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "question": "Which of the following allows for the creation of a recursive function in C?",
+            "options": ["A function must call itself", "A function must have a return type of void", "A function must not have parameters", "A function must always be inline"],
+            "answer": 0
+          },
+          {
+            "id": 17,
+            "question": "Which of the following is not a valid preprocessor directive in C?",
+            "options": ["#define", "#include", "#ifdef", "#process"],
+            "answer": 3
+          },
+          {
+            "id": 18,
+            "question": "What is the output of the following code: int x = 10; printf(\"%d\", x++ + ++x);?",
+            "options": ["21", "20", "19", "Error"],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "question": "What is a dangling pointer in C?",
+            "options": ["A pointer that points to an invalid memory location", "A pointer that is initialized but not used", "A pointer that points to a variable out of scope", "Both 1 and 3"],
+            "answer": 3
+          },
+          {
+            "id": 20,
+            "question": "Which of the following functions cannot be used to manipulate strings in C?",
+            "options": ["strcat()", "strncat()", "strlen()", "strrev()"],
+            "answer": 3
+          },
+          {
+            "id": 21,
+            "question": "What does the 'const' keyword indicate when applied to a variable?",
+            "options": ["The variable cannot be modified", "The variable is only accessible in the current file", "The variable is automatically initialized", "The variable is dynamic"],
+            "answer": 0
+          },
+          {
+            "id": 22,
+            "question": "What is the output of the following code: char str[] = \"abc\"; printf(\"%d\", sizeof(str));?",
+            "options": ["3", "4", "2", "Error"],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "question": "What will happen if you attempt to access an array element beyond its bounds?",
+            "options": ["The program will crash", "Undefined behavior", "The compiler will catch the error", "It will return zero"],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "question": "What does the term 'stack overflow' refer to in C?",
+            "options": ["Too many variables allocated on the stack", "Too many recursive function calls", "Using too much heap memory", "All of the above"],
+            "answer": 3
+          },
+          {
+            "id": 25,
+            "question": "Which of the following correctly describes the behavior of the `strncpy()` function?",
+            "options": ["Copies a specified number of characters from one string to another", "Copies one string to another until the end is reached", "Appends one string to another", "Truncates the string if it exceeds a certain length"],
+            "answer": 0
+          },
+          {
+            "id": 26,
+            "question": "What will be the output of the following code: int a = 5; printf(\"%d\", a | 1);?",
+            "options": ["4", "5", "6", "7"],
+            "answer": 2
+          },
+          {
+            "id": 27,
+            "question": "Which of the following functions can be used to read from a file in C?",
+            "options": ["fwrite()", "fread()", "fopen()", "fclose()"],
+            "answer": 1
+          },
+          {
+            "id": 28,
+            "question": "What is the correct way to define a recursive function in C?",
+            "options": ["A function that calls itself", "A function that calls another function", "A function with no return type", "A function that takes no parameters"],
+            "answer": 0
+          },
+          {
+            "id": 29,
+            "question": "Which of the following will not produce an error in C?",
+            "options": ["int x = 10.5;", "int* p = NULL;", "char str[] = 'Hello';", "double d = 3.14;"],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "question": "What is the purpose of the 'break' statement in C?",
+            "options": ["To exit a loop or switch statement", "To terminate a function", "To skip an iteration", "To continue the loop"],
+            "answer": 0
+          },
+          {
+            "id": 31,
+            "question": "What is the difference between '== ' and '=' in C?",
+            "options": ["'==' is used for comparison, '=' is used for assignment", "'==' is used for assignment, '=' is used for comparison", "Both are the same", "Neither is valid"],
+            "answer": 0
+          },
+          {
+            "id": 32,
+            "question": "What is the output of the following code: int a = 5; int b = 10; printf(\"%d\", a > b ? a : b);?",
+            "options": ["5", "10", "0", "Error"],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "question": "Which of the following correctly declares a pointer to a pointer?",
+            "options": ["int **ptr;", "int *ptr*;", "int ptr**;", "int &ptr;"],
+            "answer": 0
+          },
+          {
+            "id": 34,
+            "question": "What is the output of the following code: printf(\"%d\", (3 + 2) * 4);?",
+            "options": ["20", "24", "5", "Error"],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "question": "What is a 'segmentation fault' in C?",
+            "options": ["An error caused by accessing invalid memory", "A memory leak", "A buffer overflow", "None of the above"],
+            "answer": 0
+          },
+          {
+            "id": 36,
+            "question": "What will happen if you try to dereference a NULL pointer?",
+            "options": ["Nothing, it is safe", "It will cause a runtime error", "It will return zero", "It will return a random value"],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "question": "Which of the following is not a valid data type in C?",
+            "options": ["int", "float", "string", "char"],
+            "answer": 2
+          },
+          {
+            "id": 38,
+            "question": "What does the 'sizeof' operator return when applied to a function?",
+            "options": ["The number of parameters", "The size of the function's return type", "It cannot be applied to functions", "The total size of the code"],
+            "answer": 2
+          },
+          {
+            "id": 39,
+            "question": "Which of the following statements about enums in C is true?",
+            "options": ["They are defined with the 'enum' keyword", "They can only hold integer values", "They can be assigned floating-point values", "Both 1 and 2"],
+            "answer": 3
+          },
+          {
+            "id": 40,
+            "question": "What will the output of the following code be: int a = 2; printf(\"%d\", a<<1);?",
+            "options": ["2", "4", "1", "3"],
+            "answer": 1
+          }        
+      ]
+    },
+    "JAVA": {
+      "Easy": [
+          {
+            "id": 0,
+            "question": "What is the correct way to declare a variable in Java?",
+            "options": ["int 1x = 10;", "int x = 10;", "int x = 10.0;", "x int = 10;"],
+            "answer": 1
+          },
+          {
+            "id": 1,
+            "question": "Which data type is used to create a variable that should store text?",
+            "options": ["String", "Text", "myString", "string"],
+            "answer": 0
+          },
+          {
+            "id": 2,
+            "question": "Which of the following is a valid constructor in Java?",
+            "options": ["public MyClass() {}", "MyClass() {}", "void MyClass() {}", "MyClass() : {}"],
+            "answer": 0
+          },
+          {
+            "id": 3,
+            "question": "What is the default value of an int variable in Java?",
+            "options": ["0", "null", "undefined", "1"],
+            "answer": 0
+          },
+          {
+            "id": 4,
+            "question": "How do you create an array in Java?",
+            "options": ["int[] arr = new int[5];", "int arr = new int[5];", "int arr[] = 5;", "arr int[] = new int(5);"],
+            "answer": 0
+          },
+          {
+            "id": 5,
+            "question": "What is the keyword used to create a class in Java?",
+            "options": ["class", "Class", "create", "new"],
+            "answer": 0
+          },
+          {
+            "id": 6,
+            "question": "Which of the following is used to define a method in Java?",
+            "options": ["method myMethod()", "void myMethod()", "function myMethod()", "myMethod() void"],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "question": "What is the main method in Java?",
+            "options": ["public void main(String[] args)", "public static void main(String args)", "public static void main(String[] args)", "public void main(args)"],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "question": "Which operator is used for comments in Java?",
+            "options": ["//", "#", "/* */", "// and /* */"],
+            "answer": 3
+          },
+          {
+            "id": 9,
+            "question": "What is the correct way to instantiate an object of a class?",
+            "options": ["ClassName obj = new ClassName();", "ClassName obj = ClassName();", "ClassName obj = new ClassName;", "new ClassName obj = ClassName();"],
+            "answer": 0
+          },
+          {
+            "id": 10,
+            "question": "Which keyword is used to inherit a class in Java?",
+            "options": ["inherits", "extends", "implements", "super"],
+            "answer": 1
+          },
+          {
+            "id": 11,
+            "question": "What is the purpose of the 'static' keyword in Java?",
+            "options": ["It allows a method to be called without an instance", "It indicates that a variable can be modified", "It defines a constant", "It prevents inheritance"],
+            "answer": 0
+          },
+          {
+            "id": 12,
+            "question": "Which of the following is a valid way to declare a string variable?",
+            "options": ["String s = 'Hello';", "String s = \"Hello\";", "String s = Hello;", "String s = 'Hello';"],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "question": "What is the result of the following expression: 10 + 20?",
+            "options": ["10", "20", "30", "Error"],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "question": "How do you check for equality in Java?",
+            "options": ["==", "===", "=", "equals()"],
+            "answer": 0
+          },
+          {
+            "id": 15,
+            "question": "What does the 'break' statement do in a loop?",
+            "options": ["Exits the loop", "Skips the current iteration", "Continues to the next iteration", "Ends the program"],
+            "answer": 0
+          },
+          {
+            "id": 16,
+            "question": "Which of the following is a valid way to declare a boolean variable?",
+            "options": ["boolean b = true;", "bool b = true;", "boolean b = 1;", "boolean b = 'true';"],
+            "answer": 0
+          },
+          {
+            "id": 17,
+            "question": "Which statement is used to exit from a method?",
+            "options": ["exit;", "return;", "break;", "continue;"],
+            "answer": 1
+          },
+          {
+            "id": 18,
+            "question": "What is the output of the following code: System.out.println(5 + 3);?",
+            "options": ["5", "8", "53", "Error"],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "question": "Which keyword is used to create an interface in Java?",
+            "options": ["interface", "Interface", "class", "implements"],
+            "answer": 0
+          },
+          {
+            "id": 20,
+            "question": "Which of the following is not a valid Java data type?",
+            "options": ["int", "float", "char", "string"],
+            "answer": 3
+          },
+          {
+            "id": 21,
+            "question": "What is the result of the expression: 10 % 3?",
+            "options": ["1", "3", "0", "2"],
+            "answer": 0
+          },
+          {
+            "id": 22,
+            "question": "Which operator is used to concatenate strings in Java?",
+            "options": ["&", "+", "&&", "concat"],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "question": "What is the purpose of the 'final' keyword?",
+            "options": ["To define a constant", "To prevent inheritance", "To prevent method overriding", "All of the above"],
+            "answer": 3
+          },
+          {
+            "id": 24,
+            "question": "What will be the output of System.out.println('A');?",
+            "options": ["A", "65", "Error", "a"],
+            "answer": 0
+          },
+          {
+            "id": 25,
+            "question": "What is an ArrayList in Java?",
+            "options": ["A fixed-size array", "A resizable array", "A type of list", "A collection of elements"],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "question": "Which method is used to add an element to an ArrayList?",
+            "options": ["add()", "insert()", "append()", "push()"],
+            "answer": 0
+          },
+          {
+            "id": 27,
+            "question": "What is the default size of an ArrayList?",
+            "options": ["10", "0", "5", "20"],
+            "answer": 0
+          },
+          {
+            "id": 28,
+            "question": "Which loop is used to iterate over an array?",
+            "options": ["for loop", "while loop", "do-while loop", "All of the above"],
+            "answer": 3
+          },
+          {
+            "id": 29,
+            "question": "What does the 'this' keyword refer to?",
+            "options": ["The current object", "The parent class", "The main method", "The constructor"],
+            "answer": 0
+          },
+          {
+            "id": 30,
+            "question": "What is the output of the following code: System.out.println(1 + 2 + \"3\");?",
+            "options": ["6", "33", "Error", "123"],
+            "answer": 1
+          },
+          {
+            "id": 31,
+            "question": "What is the purpose of the 'super' keyword?",
+            "options": ["To access parent class members", "To create a superclass", "To define a subclass", "To define an interface"],
+            "answer": 0
+          },
+          {
+            "id": 32,
+            "question": "What does the 'static' keyword indicate when used with a method?",
+            "options": ["The method belongs to the class", "The method can be overridden", "The method can be inherited", "The method can only be used in the same instance"],
+            "answer": 0
+          },
+          {
+            "id": 33,
+            "question": "How do you define a constant variable in Java?",
+            "options": ["const int x = 10;", "final int x = 10;", "int x = final 10;", "constant int x = 10;"],
+            "answer": 1
+          },
+          {
+            "id": 34,
+            "question": "What is the output of 3 * 5 + 2?",
+            "options": ["15", "17", "20", "Error"],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "question": "Which of the following is not a primitive data type in Java?",
+            "options": ["int", "float", "double", "Array"],
+            "answer": 3
+          },
+          {
+            "id": 36,
+            "question": "What keyword is used to catch exceptions in Java?",
+            "options": ["catch", "handle", "try", "throw"],
+            "answer": 0
+          },
+          {
+            "id": 37,
+            "question": "What is the purpose of the 'void' keyword?",
+            "options": ["To return a value", "To indicate no return value", "To create a method", "To define a class"],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "question": "What is the output of System.out.println(5 == 5);?",
+            "options": ["true", "false", "1", "0"],
+            "answer": 0
+          },
+          {
+            "id": 39,
+            "question": "How do you declare a character variable in Java?",
+            "options": ["char c = 'A';", "char c = \"A\";", "char c = A;", "character c = 'A';"],
+            "answer": 0
+          }        
+      ],
+      "Normal": [
+          {
+            "id": 0,
+            "question": "What will be the output of the following code? System.out.println(10 + 20 + \"30\");",
+            "options": ["1030", "30", "Error", "1020"],
+            "answer": 0
+          },
+          {
+            "id": 1,
+            "question": "What is the difference between '==' and 'equals()' in Java?",
+            "options": ["'==' checks reference equality, 'equals()' checks value equality", "'==' checks value equality, 'equals()' checks reference equality", "Both are the same", "'==' is used for primitives only"],
+            "answer": 0
+          },
+          {
+            "id": 2,
+            "question": "How can you prevent a class from being subclassed in Java?",
+            "options": ["Use the final keyword", "Use the static keyword", "Use the private keyword", "Use the protected keyword"],
+            "answer": 0
+          },
+          {
+            "id": 3,
+            "question": "What is the default access modifier for a class in Java?",
+            "options": ["public", "private", "protected", "package-private"],
+            "answer": 3
+          },
+          {
+            "id": 4,
+            "question": "Which of the following is a valid way to implement an interface in Java?",
+            "options": ["class MyClass implements MyInterface {}", "class MyClass extends MyInterface {}", "class MyClass implements MyInterface", "class MyClass : MyInterface {}"],
+            "answer": 0
+          },
+          {
+            "id": 5,
+            "question": "What is the output of the following code? System.out.println(\"Hello\" + null);",
+            "options": ["Hello", "null", "Hello null", "Error"],
+            "answer": 2
+          },
+          {
+            "id": 6,
+            "question": "What will be the result of the expression: 5 != 5?",
+            "options": ["true", "false", "1", "0"],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "question": "Which of the following statements is used to terminate a loop in Java?",
+            "options": ["stop", "end", "exit", "break"],
+            "answer": 3
+          },
+          {
+            "id": 8,
+            "question": "What will be the output of System.out.println(0.1 + 0.2 == 0.3);?",
+            "options": ["true", "false", "0", "1"],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "question": "What is a checked exception in Java?",
+            "options": ["An exception that must be caught or declared", "An exception that is not checked at compile time", "An exception that can be ignored", "An exception that is thrown at runtime"],
+            "answer": 0
+          },
+          {
+            "id": 10,
+            "question": "How do you create a thread in Java?",
+            "options": ["By implementing Runnable interface", "By extending Thread class", "By using ExecutorService", "All of the above"],
+            "answer": 3
+          },
+          {
+            "id": 11,
+            "question": "Which collection allows duplicate elements in Java?",
+            "options": ["Set", "Map", "List", "Queue"],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "question": "What does the 'synchronized' keyword do?",
+            "options": ["Locks the method or block to allow only one thread to access it", "Allows multiple threads to access a method", "Prevents inheritance", "Prevents method overloading"],
+            "answer": 0
+          },
+          {
+            "id": 13,
+            "question": "Which of the following is a marker interface in Java?",
+            "options": ["Serializable", "Runnable", "Cloneable", "All of the above"],
+            "answer": 3
+          },
+          {
+            "id": 14,
+            "question": "What is the purpose of the 'transient' keyword?",
+            "options": ["To prevent serialization of a field", "To make a variable static", "To create a constant variable", "To define a method"],
+            "answer": 0
+          },
+          {
+            "id": 15,
+            "question": "How do you handle exceptions in Java?",
+            "options": ["Using try-catch blocks", "Using throws keyword", "Using throw keyword", "All of the above"],
+            "answer": 3
+          },
+          {
+            "id": 16,
+            "question": "What will happen if you try to access an element outside the bounds of an array?",
+            "options": ["ArrayIndexOutOfBoundsException", "NullPointerException", "No output", "Error"],
+            "answer": 0
+          },
+          {
+            "id": 17,
+            "question": "What is the output of the following code? System.out.println(5 + 10 + \"10\");",
+            "options": ["1510", "1510", "Error", "510"],
+            "answer": 0
+          },
+          {
+            "id": 18,
+            "question": "Which of the following methods cannot be overridden?",
+            "options": ["final methods", "static methods", "private methods", "All of the above"],
+            "answer": 3
+          },
+          {
+            "id": 19,
+            "question": "What is the purpose of the 'volatile' keyword?",
+            "options": ["To indicate that a variable's value may be changed by different threads", "To make a variable static", "To define a constant variable", "To create a synchronized block"],
+            "answer": 0
+          },
+          {
+            "id": 20,
+            "question": "What is the result of 10 >> 1?",
+            "options": ["5", "10", "2", "1"],
+            "answer": 0
+          },
+          {
+            "id": 21,
+            "question": "What will happen if you don't handle an exception?",
+            "options": ["The program will terminate", "The exception will be ignored", "The program will continue", "An error will be logged"],
+            "answer": 0
+          },
+          {
+            "id": 22,
+            "question": "Which keyword is used to define a method that cannot be overridden?",
+            "options": ["static", "final", "abstract", "private"],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "question": "What is the output of System.out.println(5 * 4 + 3);?",
+            "options": ["20", "23", "Error", "15"],
+            "answer": 0
+          },
+          {
+            "id": 24,
+            "question": "What does the 'instanceof' operator do?",
+            "options": ["Checks if an object is an instance of a class", "Creates an instance of a class", "Checks if a class is abstract", "Checks if a class is an interface"],
+            "answer": 0
+          },
+          {
+            "id": 25,
+            "question": "Which of the following is not a part of Java's collection framework?",
+            "options": ["ArrayList", "HashMap", "Vector", "Array"],
+            "answer": 3
+          },
+          {
+            "id": 26,
+            "question": "What will be the output of System.out.println(Math.round(4.5));?",
+            "options": ["4", "5", "Error", "4.5"],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "question": "What is the output of the following code? System.out.println(\"abc\".charAt(1));",
+            "options": ["b", "a", "c", "Error"],
+            "answer": 0
+          },
+          {
+            "id": 28,
+            "question": "Which method is used to convert a string to an integer?",
+            "options": ["Integer.parseInt()", "String.toInteger()", "Integer.valueOf()", "Both a and c"],
+            "answer": 3
+          },
+          {
+            "id": 29,
+            "question": "What will happen if you divide by zero in Java?",
+            "options": ["ArithmeticException", "Infinity", "Error", "0"],
+            "answer": 0
+          },
+          {
+            "id": 30,
+            "question": "Which of the following is a mutable class in Java?",
+            "options": ["String", "Integer", "StringBuilder", "All of the above"],
+            "answer": 2
+          },
+          {
+            "id": 31,
+            "question": "What is the output of System.out.println(\"Java\" + 2 + 3);?",
+            "options": ["Java23", "Java5", "Java", "Error"],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "question": "How do you create a HashMap in Java?",
+            "options": ["Map<String, String> map = new HashMap<>();", "HashMap<String, String> map = new HashMap();", "HashMap map = new HashMap();", "All of the above"],
+            "answer": 3
+          },
+          {
+            "id": 33,
+            "question": "Which statement is true about Java?",
+            "options": ["Java is platform-independent", "Java is platform-dependent", "Java is a compiled language", "Java is not an object-oriented language"],
+            "answer": 0
+          },
+          {
+            "id": 34,
+            "question": "What is the output of System.out.println(10 / 3);?",
+            "options": ["3.333", "3", "Error", "3.0"],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "question": "Which of the following is not an access modifier in Java?",
+            "options": ["private", "public", "protected", "static"],
+            "answer": 3
+          },
+          {
+            "id": 36,
+            "question": "What is the purpose of the 'default' keyword in interfaces?",
+            "options": ["To provide default method implementations", "To create a default constructor", "To define default values", "To indicate an interface is default"],
+            "answer": 0
+          },
+          {
+            "id": 37,
+            "question": "Which of the following is true about constructors in Java?",
+            "options": ["They must have the same name as the class", "They cannot have a return type", "They can be overloaded", "All of the above"],
+            "answer": 3
+          },
+          {
+            "id": 38,
+            "question": "What will be the output of System.out.println(1 + 2 + \"3\");?",
+            "options": ["33", "123", "Error", "6"],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "question": "What is the purpose of the 'this' keyword?",
+            "options": ["To refer to the current instance of a class", "To create a new object", "To call a superclass method", "To access static variables"],
+            "answer": 0
+          }        
+      ],
+      "Hard": [
+          {
+            "id": 0,
+            "question": "What is the purpose of the 'transient' keyword?",
+            "options": [
+              "It prevents serialization of the variable.",
+              "It makes the variable static.",
+              "It indicates that the variable is final.",
+              "It makes the variable volatile."
+            ],
+            "answer": 0
+          },
+          {
+            "id": 1,
+            "question": "Which of the following can cause a StackOverflowError?",
+            "options": [
+              "Infinite recursion in a method call.",
+              "Accessing an array out of bounds.",
+              "Failing to close a stream.",
+              "Creating a large array."
+            ],
+            "answer": 0
+          },
+          {
+            "id": 2,
+            "question": "What is the output of the following code? System.out.println(0.1 + 0.2 == 0.3);",
+            "options": [
+              "true",
+              "false",
+              "Compilation error",
+              "Runtime error"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "question": "What is the use of the 'volatile' keyword in Java?",
+            "options": [
+              "It restricts the variable to be accessed by one thread only.",
+              "It ensures visibility of changes to variables across threads.",
+              "It makes a variable immutable.",
+              "It prevents the variable from being garbage collected."
+            ],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "question": "What will happen if a thread invokes the wait() method on an object?",
+            "options": [
+              "The thread will terminate.",
+              "The thread will wait until notified.",
+              "The thread will enter a runnable state.",
+              "The thread will throw an exception."
+            ],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "question": "Which of the following statements is true about Java Collections Framework?",
+            "options": [
+              "It provides a set of classes and interfaces for working with collections.",
+              "It only includes lists and maps.",
+              "It cannot be used with generics.",
+              "It is part of Java EE."
+            ],
+            "answer": 0
+          },
+          {
+            "id": 6,
+            "question": "Which of the following exceptions is unchecked?",
+            "options": [
+              "IOException",
+              "SQLException",
+              "NullPointerException",
+              "FileNotFoundException"
+            ],
+            "answer": 2
+          },
+          {
+            "id": 7,
+            "question": "What is the result of compiling the following code: String s = new String(\"Hello\"); s = s.intern();",
+            "options": [
+              "s will refer to the string pool instance of \"Hello\".",
+              "s will refer to a new instance of String.",
+              "s will be null.",
+              "s will cause a runtime error."
+            ],
+            "answer": 0
+          },
+          {
+            "id": 8,
+            "question": "What is the main advantage of using 'StringBuilder' over 'String'?",
+            "options": [
+              "StringBuilder is immutable.",
+              "StringBuilder is mutable and faster for concatenation.",
+              "StringBuilder uses less memory.",
+              "StringBuilder cannot be used in multi-threaded environments."
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "question": "Which of the following is not a part of Java's access modifiers?",
+            "options": [
+              "public",
+              "private",
+              "protected",
+              "package"
+            ],
+            "answer": 3
+          },
+          {
+            "id": 10,
+            "question": "What is the output of the following code? int x = 5; System.out.println(++x + ++x);",
+            "options": [
+              "12",
+              "13",
+              "10",
+              "11"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 11,
+            "question": "What does the keyword 'synchronized' do?",
+            "options": [
+              "It prevents access to a method by multiple threads.",
+              "It allows multiple threads to access the method simultaneously.",
+              "It makes the variable static.",
+              "It locks the variable."
+            ],
+            "answer": 0
+          },
+          {
+            "id": 12,
+            "question": "What is a lambda expression in Java?",
+            "options": [
+              "A way to define an anonymous method.",
+              "A special kind of thread.",
+              "A method with no parameters.",
+              "A way to define multiple classes."
+            ],
+            "answer": 0
+          },
+          {
+            "id": 13,
+            "question": "What is the purpose of the 'default' keyword in an interface?",
+            "options": [
+              "To define a method with a body.",
+              "To make a method final.",
+              "To allow method overloading.",
+              "To declare a constant."
+            ],
+            "answer": 0
+          },
+          {
+            "id": 14,
+            "question": "What is the result of the expression 'true && false || true'?",
+            "options": [
+              "true",
+              "false",
+              "Compilation error",
+              "Runtime error"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 15,
+            "question": "What will be the output of the following code? System.out.println(10 / 0);",
+            "options": [
+              "Infinity",
+              "0",
+              "RuntimeException",
+              "Compilation error"
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "question": "Which of the following statements about the Java Virtual Machine (JVM) is true?",
+            "options": [
+              "JVM is platform-dependent.",
+              "JVM executes Java bytecode.",
+              "JVM compiles Java code directly to machine code.",
+              "JVM is not part of the Java Runtime Environment."
+            ],
+            "answer": 1
+          },
+          {
+            "id": 17,
+            "question": "What is the primary purpose of the 'finalize' method in Java?",
+            "options": [
+              "To clean up resources before garbage collection.",
+              "To prevent a class from being inherited.",
+              "To define a constant variable.",
+              "To create a singleton class."
+            ],
+            "answer": 0
+          },
+          {
+            "id": 18,
+            "question": "Which collection class guarantees that no duplicate elements are stored?",
+            "options": [
+              "ArrayList",
+              "HashSet",
+              "LinkedList",
+              "Vector"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "question": "What is the output of the following code? int[] arr = {1, 2, 3}; System.out.println(arr[3]);",
+            "options": [
+              "3",
+              "1",
+              "ArrayIndexOutOfBoundsException",
+              "null"
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "question": "What is the main benefit of using interfaces in Java?",
+            "options": [
+              "To allow multiple inheritance.",
+              "To achieve abstraction.",
+              "To enforce a contract for classes.",
+              "To define constants."
+            ],
+            "answer": 2
+          },
+          {
+            "id": 21,
+            "question": "What is the purpose of the 'instanceof' keyword?",
+            "options": [
+              "To check if an object is an instance of a specific class.",
+              "To create a new instance of a class.",
+              "To define an instance variable.",
+              "To prevent instantiation of a class."
+            ],
+            "answer": 0
+          },
+          {
+            "id": 22,
+            "question": "What does the 'throws' keyword indicate in a method signature?",
+            "options": [
+              "The method can throw an exception.",
+              "The method must catch an exception.",
+              "The method is synchronized.",
+              "The method is abstract."
+            ],
+            "answer": 0
+          },
+          {
+            "id": 23,
+            "question": "Which of the following can be used to synchronize access to a block of code?",
+            "options": [
+              "synchronized keyword",
+              "final keyword",
+              "volatile keyword",
+              "native keyword"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 24,
+            "question": "What is the output of the following code? String s = \"Hello\"; s = s.concat(\" World\"); System.out.println(s);",
+            "options": [
+              "Hello World",
+              "Hello",
+              "World",
+              "Compilation error"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 25,
+            "question": "Which of the following is not a feature of Java?",
+            "options": [
+              "Platform independence",
+              "Automatic memory management",
+              "Multi-threading",
+              "Multiple inheritance through classes"
+            ],
+            "answer": 3
+          },
+          {
+            "id": 26,
+            "question": "What is the result of the following expression: 5 | 3?",
+            "options": [
+              "7",
+              "5",
+              "3",
+              "8"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 27,
+            "question": "Which of the following is true about 'HashMap' in Java?",
+            "options": [
+              "It maintains the order of elements.",
+              "It allows duplicate keys.",
+              "It is synchronized.",
+              "It uses a hash table for storage."
+            ],
+            "answer": 3
+          },
+          {
+            "id": 28,
+            "question": "What will be the output of the following code? for (int i = 0; i < 5; i++) { System.out.println(i); }?",
+            "options": [
+              "0 1 2 3 4",
+              "0 1 2 3 4 5",
+              "1 2 3 4 5",
+              "0 1 2 3 4 5 6"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 29,
+            "question": "What is the difference between '== 'and '.equals()' in Java?",
+            "options": [
+              "== checks for reference equality while .equals() checks for value equality.",
+              ".equals() checks for reference equality while == checks for value equality.",
+              "Both are the same.",
+              "None of the above."
+            ],
+            "answer": 0
+          },
+          {
+            "id": 30,
+            "question": "Which of the following is true about abstract classes?",
+            "options": [
+              "They cannot have instance variables.",
+              "They can have abstract and non-abstract methods.",
+              "They cannot be instantiated.",
+              "Both b and c."
+            ],
+            "answer": 3
+          },
+          {
+            "id": 31,
+            "question": "What is the output of the following code? int[] arr = {1, 2, 3}; arr[0] = arr[1]; System.out.println(arr[0]);",
+            "options": [
+              "1",
+              "2",
+              "3",
+              "0"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "question": "What does the 'super' keyword do?",
+            "options": [
+              "Refers to the parent class.",
+              "Creates a new object.",
+              "Refers to the current class.",
+              "None of the above."
+            ],
+            "answer": 0
+          },
+          {
+            "id": 33,
+            "question": "Which of the following statements about 'try-catch' blocks is true?",
+            "options": [
+              "Multiple catch blocks can handle a single try block.",
+              "Only one catch block can be present for each try block.",
+              "try blocks cannot throw exceptions.",
+              "catch blocks can only handle runtime exceptions."
+            ],
+            "answer": 0
+          },
+          {
+            "id": 34,
+            "question": "What will be the output of the following code? System.out.println(\"Hello\" + 5 + 10);",
+            "options": [
+              "Hello15",
+              "Hello510",
+              "15Hello",
+              "Compilation error"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "question": "Which of the following is not an interface in Java?",
+            "options": [
+              "List",
+              "Map",
+              "Set",
+              "Array"
+            ],
+            "answer": 3
+          },
+          {
+            "id": 36,
+            "question": "What is the output of the following code? String s1 = \"Hello\"; String s2 = \"Hello\"; System.out.println(s1 == s2);",
+            "options": [
+              "true",
+              "false",
+              "Compilation error",
+              "Runtime error"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 37,
+            "question": "Which of the following can be used to implement the Singleton design pattern?",
+            "options": [
+              "A public constructor",
+              "A private constructor",
+              "Static methods",
+              "Final classes"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "question": "What is the output of the following code? int a = 5; int b = ++a; System.out.println(b);",
+            "options": [
+              "5",
+              "6",
+              "Compilation error",
+              "Runtime error"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "question": "Which of the following is the correct way to declare an array in Java?",
+            "options": [
+              "int arr[];",
+              "int[] arr;",
+              "Both a and b.",
+              "None of the above."
+            ],
+            "answer": 2
+          }        
+      ]
+    },
+    "PYTHON": {
+      "Easy": [
+          {
+            "id": 1,
+            "question": "What is the output of the following code? print(3 + 4 * 2)?",
+            "options": [
+              "14",
+              "11",
+              "10",
+              "8"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "question": "What is the correct file extension for Python files?",
+            "options": [
+              ".pyth",
+              ".python",
+              ".py",
+              ".pt"
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "question": "Which of the following is a mutable data type in Python?",
+            "options": [
+              "Tuple",
+              "List",
+              "String",
+              "Set"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "question": "What will be the output of the following code? print(type(5))?",
+            "options": [
+              "<class 'int'>",
+              "<class 'float'>",
+              "<class 'str'>",
+              "<class 'list'>"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 5,
+            "question": "Which of the following is used to define a function in Python?",
+            "options": [
+              "def",
+              "function",
+              "define",
+              "fun"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 6,
+            "question": "How do you create a variable with the numeric value 5?",
+            "options": [
+              "x = 5",
+              "x = int(5)",
+              "Both a and b",
+              "x == 5"
+            ],
+            "answer": 2
+          },
+          {
+            "id": 7,
+            "question": "What will be the output of the following code? print(5 == 5)?",
+            "options": [
+              "True",
+              "False",
+              "5",
+              "None"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 8,
+            "question": "Which keyword is used to create a class in Python?",
+            "options": [
+              "class",
+              "def",
+              "create",
+              "function"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 9,
+            "question": "What will be the output of the following code? print(len('Hello'))?",
+            "options": [
+              "4",
+              "5",
+              "6",
+              "Hello"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "question": "How do you insert comments in Python?",
+            "options": [
+              "// This is a comment",
+              "# This is a comment",
+              "/* This is a comment */",
+              "<!-- This is a comment -->"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 11,
+            "question": "Which of the following is not a built-in data type in Python?",
+            "options": [
+              "List",
+              "Dictionary",
+              "Array",
+              "String"
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "question": "What will be the output of the following code? print(2 ** 3)?",
+            "options": [
+              "6",
+              "8",
+              "9",
+              "4"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "question": "Which of the following functions is used to convert a string to an integer?",
+            "options": [
+              "int()",
+              "str()",
+              "float()",
+              "string()"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 14,
+            "question": "What will be the output of the following code? print('Hello' + ' World')?",
+            "options": [
+              "HelloWorld",
+              "Hello World",
+              "Hello + World",
+              "Error"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 15,
+            "question": "How do you start a while loop in Python?",
+            "options": [
+              "while x > 0:",
+              "while (x > 0)",
+              "while x > 0",
+              "while: x > 0"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 16,
+            "question": "Which of the following is used to handle exceptions in Python?",
+            "options": [
+              "try-catch",
+              "try-except",
+              "handle",
+              "exception"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 17,
+            "question": "What will be the output of the following code? print(10 // 3)?",
+            "options": [
+              "3",
+              "3.33",
+              "4",
+              "3.0"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 18,
+            "question": "Which method is used to add an element to a list in Python?",
+            "options": [
+              "add()",
+              "append()",
+              "insert()",
+              "extend()"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "question": "How can you get the first character of a string in Python?",
+            "options": [
+              "str[0]",
+              "str{0}",
+              "str(0)",
+              "str[1]"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 20,
+            "question": "What is the output of the following code? print('A' in 'ABC')?",
+            "options": [
+              "True",
+              "False",
+              "None",
+              "Error"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 21,
+            "question": "Which operator is used to check if two values are equal?",
+            "options": [
+              "=",
+              "==",
+              "===",
+              "!="
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "question": "What will be the output of the following code? print('5' * 3)?",
+            "options": [
+              "15",
+              "555",
+              "5 5 5",
+              "Error"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "question": "Which of the following methods can be used to remove an item from a list?",
+            "options": [
+              "delete()",
+              "remove()",
+              "pop()",
+              "Both b and c"
+            ],
+            "answer": 3
+          },
+          {
+            "id": 24,
+            "question": "What will be the output of the following code? print(10 % 3)?",
+            "options": [
+              "1",
+              "3",
+              "10",
+              "0"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 25,
+            "question": "What is the output of the following code? print(bool(0))?",
+            "options": [
+              "True",
+              "False",
+              "None",
+              "0"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "question": "Which of the following is used to create a tuple in Python?",
+            "options": [
+              "()",
+              "[]",
+              "{}",
+              "<>"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 27,
+            "question": "What will be the output of the following code? print(list('abc'))?",
+            "options": [
+              "['abc']",
+              "['a', 'b', 'c']",
+              "['a b c']",
+              "['ab', 'c']"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 28,
+            "question": "Which keyword is used to exit a loop in Python?",
+            "options": [
+              "stop",
+              "exit",
+              "break",
+              "continue"
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "question": "What is the output of the following code? x = 10; print(x < 5 and x > 2)?",
+            "options": [
+              "True",
+              "False",
+              "None",
+              "10"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "question": "What will be the output of the following code? print('Hello'.upper())?",
+            "options": [
+              "HELLO",
+              "Hello",
+              "hello",
+              "None"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 31,
+            "question": "How do you create a dictionary in Python?",
+            "options": [
+              "dict()",
+              "{}",
+              "[]",
+              "Both a and b"
+            ],
+            "answer": 3
+          },
+          {
+            "id": 32,
+            "question": "What is the output of the following code? print(3 * 'A')?",
+            "options": [
+              "AAA",
+              "A A A",
+              "AA",
+              "Error"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 33,
+            "question": "What will be the output of the following code? print([1, 2] + [3, 4])?",
+            "options": [
+              "[1, 2, 3, 4]",
+              "[1, 2] [3, 4]",
+              "[1, 2, [3, 4]]",
+              "[1, 2, 4]"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 34,
+            "question": "Which of the following methods is used to find the length of a list?",
+            "options": [
+              "length()",
+              "size()",
+              "len()",
+              "count()"
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "question": "What is the output of the following code? x = '5'; print(int(x) + 5)?",
+            "options": [
+              "10",
+              "55",
+              "Error",
+              "5"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 36,
+            "question": "Which of the following statements is used to handle errors in Python?",
+            "options": [
+              "try-except",
+              "except-try",
+              "catch",
+              "finally"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 37,
+            "question": "What is the output of the following code? print('Python'[-1])?",
+            "options": [
+              "n",
+              "P",
+              "o",
+              "Error"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 38,
+            "question": "Which method is used to remove all items from a list?",
+            "options": [
+              "clear()",
+              "remove()",
+              "del()",
+              "discard()"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 39,
+            "question": "What is the output of the following code? print(5 > 3 or 3 < 1)?",
+            "options": [
+              "True",
+              "False",
+              "None",
+              "Error"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 40,
+            "question": "What is the output of the following code? print('Hello World'.split())?",
+            "options": [
+              "['Hello', 'World']",
+              "['Hello World']",
+              "Error",
+              "None"
+            ],
+            "answer": 0
+          }        
+      ],
+      "Normal": [
+          {
+            "id": 1,
+            "question": "What will be the output of the following code? x = [1, 2, 3]; print(x * 2)?",
+            "options": [
+              "[1, 2, 3, 1, 2, 3]",
+              "[2, 4, 6]",
+              "[1, 2, 3, 2, 4, 6]",
+              "[1, 2, 3, 3, 2, 1]"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 2,
+            "question": "Which method can be used to convert a list into a tuple?",
+            "options": [
+              "tuple()",
+              "convert()",
+              "to_tuple()",
+              "list_to_tuple()"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 3,
+            "question": "What will be the output of the following code? def f(x): return x + 1; print(f(3))?",
+            "options": [
+              "3",
+              "4",
+              "None",
+              "Error"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "question": "What is the purpose of the 'self' keyword in a class method?",
+            "options": [
+              "To refer to the instance of the class",
+              "To refer to the class itself",
+              "To create a new instance of the class",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 5,
+            "question": "How can you swap the values of two variables x and y without using a third variable?",
+            "options": [
+              "x, y = y, x",
+              "swap(x, y)",
+              "x = y; y = x",
+              "x = x + y; y = x - y; x = x - y"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 6,
+            "question": "What will be the output of the following code? a = {1, 2, 3}; a.add(4); print(a)?",
+            "options": [
+              "{1, 2, 3}",
+              "{1, 2, 3, 4}",
+              "{4, 3, 2, 1}",
+              "Error"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "question": "How can you create a dictionary from two lists in Python?",
+            "options": [
+              "dict(zip(list1, list2))",
+              "list(zip(list1, list2))",
+              "dict(list1, list2)",
+              "zip(list1, list2)"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 8,
+            "question": "What is the output of the following code? x = [1, 2, 3]; print(x[1:])?",
+            "options": [
+              "[1, 2]",
+              "[2, 3]",
+              "[1, 2, 3]",
+              "Error"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "question": "Which of the following statements will raise an exception?",
+            "options": [
+              "1 / 0",
+              "int('abc')",
+              "print(x)",
+              "All of the above"
+            ],
+            "answer": 3
+          },
+          {
+            "id": 10,
+            "question": "What is the output of the following code? def g(x): return x * x; print(g(5))?",
+            "options": [
+              "25",
+              "5",
+              "10",
+              "Error"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 11,
+            "question": "What does the len() function do?",
+            "options": [
+              "Returns the number of items in an object",
+              "Returns the length of a string",
+              "Both a and b",
+              "None of the above"
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "question": "How can you remove an element from a set?",
+            "options": [
+              "remove()",
+              "discard()",
+              "pop()",
+              "All of the above"
+            ],
+            "answer": 3
+          },
+          {
+            "id": 13,
+            "question": "Which of the following is used to handle exceptions in Python?",
+            "options": [
+              "try-except",
+              "catch-finally",
+              "try-catch",
+              "handle-except"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 14,
+            "question": "What will be the output of the following code? print('abc' == 'abc')?",
+            "options": [
+              "True",
+              "False",
+              "None",
+              "Error"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 15,
+            "question": "How can you iterate over a dictionary in Python?",
+            "options": [
+              "for key in dict:",
+              "for key in dict.keys():",
+              "for value in dict.values():",
+              "All of the above"
+            ],
+            "answer": 3
+          },
+          {
+            "id": 16,
+            "question": "What will be the output of the following code? x = [1, 2, 3]; x.append([4, 5]); print(x)?",
+            "options": [
+              "[1, 2, 3, 4, 5]",
+              "[1, 2, 3, [4, 5]]",
+              "[1, 2, 3] + [4, 5]",
+              "[1, 2, 3, 4, 5, 6]"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 17,
+            "question": "Which of the following methods is used to read a file in Python?",
+            "options": [
+              "read()",
+              "open()",
+              "get()",
+              "Both a and b"
+            ],
+            "answer": 3
+          },
+          {
+            "id": 18,
+            "question": "What will be the output of the following code? x = {1, 2, 3}; x.remove(2); print(x)?",
+            "options": [
+              "{1, 2, 3}",
+              "{1, 3}",
+              "{2, 3}",
+              "Error"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "question": "Which of the following is a Python built-in function?",
+            "options": [
+              "input()",
+              "print()",
+              "len()",
+              "All of the above"
+            ],
+            "answer": 3
+          },
+          {
+            "id": 20,
+            "question": "What will be the output of the following code? x = [1, 2, 3]; print(x[0] + x[-1])?",
+            "options": [
+              "4",
+              "3",
+              "5",
+              "None"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 21,
+            "question": "How can you convert a string to lowercase in Python?",
+            "options": [
+              "lower()",
+              "to_lower()",
+              "str.lower()",
+              "Both a and c"
+            ],
+            "answer": 3
+          },
+          {
+            "id": 22,
+            "question": "What is the output of the following code? print([1, 2, 3] + [4, 5, 6])?",
+            "options": [
+              "[1, 2, 3, 4, 5, 6]",
+              "[1, 2, 3, 6, 5, 4]",
+              "[1, 2, 3] + [4, 5, 6]",
+              "Error"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 23,
+            "question": "How do you access a value in a dictionary using its key?",
+            "options": [
+              "dict[key]",
+              "dict.get(key)",
+              "Both a and b",
+              "None of the above"
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "question": "Which of the following is a valid way to define a function in Python?",
+            "options": [
+              "def function_name():",
+              "function function_name():",
+              "def function_name[]:",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 25,
+            "question": "What is the purpose of the pass statement in Python?",
+            "options": [
+              "To define a function",
+              "To create a placeholder",
+              "To pass control to another function",
+              "None of the above"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "question": "What will be the output of the following code? print('Hello, World!'[7:12])?",
+            "options": [
+              "World",
+              "World!",
+              "Hello",
+              "Error"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 27,
+            "question": "What will be the output of the following code? a = [1, 2, 3]; print(a.pop())?",
+            "options": [
+              "3",
+              "1",
+              "Error",
+              "None"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 28,
+            "question": "Which of the following is not a valid way to create a set?",
+            "options": [
+              "set()",
+              "{1, 2, 3}",
+              "{1: 'a', 2: 'b'}",
+              "set([1, 2, 3])"
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "question": "What will be the output of the following code? def f(x): return x + 1; print(f(5) * 2)?",
+            "options": [
+              "10",
+              "12",
+              "11",
+              "None"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 30,
+            "question": "Which of the following is used to terminate a loop in Python?",
+            "options": [
+              "break",
+              "stop",
+              "exit",
+              "return"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 31,
+            "question": "What is the output of the following code? x = 5; y = 10; print(x > y)?",
+            "options": [
+              "True",
+              "False",
+              "None",
+              "Error"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "question": "Which of the following is a valid lambda function?",
+            "options": [
+              "lambda x: x + 1",
+              "def lambda x: return x + 1",
+              "lambda x: return x + 1",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 33,
+            "question": "What will be the output of the following code? print([1, 2, 3] * 3)?",
+            "options": [
+              "[1, 2, 3, 1, 2, 3, 1, 2, 3]",
+              "[3, 2, 1]",
+              "[1, 2, 3]",
+              "Error"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 34,
+            "question": "Which of the following methods can be used to sort a list in Python?",
+            "options": [
+              "sort()",
+              "sorted()",
+              "Both a and b",
+              "None of the above"
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "question": "What is the output of the following code? x = {'a': 1, 'b': 2}; print(x['a'])?",
+            "options": [
+              "1",
+              "2",
+              "Error",
+              "None"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 36,
+            "question": "Which of the following statements will create a class in Python?",
+            "options": [
+              "class ClassName:",
+              "def ClassName():",
+              "create ClassName:",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 37,
+            "question": "What is the output of the following code? print('Python'[::-1])?",
+            "options": [
+              "Python",
+              "nohtyP",
+              "Error",
+              "None"
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "question": "How can you check if a key exists in a dictionary?",
+            "options": [
+              "key in dict",
+              "dict.has_key(key)",
+              "dict.contains(key)",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 39,
+            "question": "What will be the output of the following code? print('A' + 'B' * 3)?",
+            "options": [
+              "ABBB",
+              "A B B B",
+              "Error",
+              "A B"
+            ],
+            "answer": 0
+          },
+          {
+            "id": 40,
+            "question": "What is the output of the following code? print((2 > 1) and (3 > 2))?",
+            "options": [
+              "True",
+              "False",
+              "None",
+              "Error"
+            ],
+            "answer": 0
+          }                
+      ],
+      "Hard": [
+          {
+              "id": 0,
+              "question": "What is the output of the following code? `print(type([]) is list)`?",
+              "options": ["True", "False", "Error", "None"],
+              "answer": 0
+          },
+          {
+              "id": 1,
+              "question": "What will be the output of the following code? `print(len('Python'))`?",
+              "options": ["5", "6", "7", "None"],
+              "answer": 1
+          },
+          {
+              "id": 2,
+              "question": "What will be the output of the following code? `print((lambda x: x * 2)(3))`?",
+              "options": ["6", "3", "2", "Error"],
+              "answer": 0
+          },
+          {
+              "id": 3,
+              "question": "What will be the output of the following code? `print(list(range(1, 5)))`?",
+              "options": ["[1, 2, 3, 4]", "[1, 2, 3, 4, 5]", "[1, 2, 3, 4, 0]", "Error"],
+              "answer": 0
+          },
+          {
+              "id": 4,
+              "question": "Which of the following methods is used to add an element at the end of a list?",
+              "options": ["add()", "append()", "insert()", "push()"],
+              "answer": 1
+          },
+          {
+              "id": 5,
+              "question": "What will be the output of the following code? `print('Hello' + 'World')`?",
+              "options": ["Hello World", "HelloWorld", "Error", "Hello + World"],
+              "answer": 1
+          },
+          {
+              "id": 6,
+              "question": "What will be the output of the following code? `print((1, 2) + (3, 4))`?",
+              "options": ["(1, 2, 3, 4)", "(1, 2)(3, 4)", "Error", "10"],
+              "answer": 0
+          },
+          {
+              "id": 7,
+              "question": "Which of the following will raise an error in Python?",
+              "options": ["{} == {}", "[] == []", "None == None", "() == []"],
+              "answer": 3
+          },
+          {
+              "id": 8,
+              "question": "What will be the output of the following code? `print('a' in 'banana')`?",
+              "options": ["True", "False", "Error", "None"],
+              "answer": 0
+          },
+          {
+              "id": 9,
+              "question": "What will be the output of the following code? `print('a' * 3)`?",
+              "options": ["aaa", "'aaa'", "Error", "None"],
+              "answer": 0
+          },
+          {
+              "id": 10,
+              "question": "What will be the output of the following code? `print({1, 2, 3} - {2})`?",
+              "options": ["{1, 2, 3}", "{1, 3}", "{2}", "Error"],
+              "answer": 1
+          },
+          {
+              "id": 11,
+              "question": "What will be the output of the following code? `print(0.1 + 0.2 == 0.3)`?",
+              "options": ["True", "False", "Error", "None"],
+              "answer": 1
+          },
+          {
+              "id": 12,
+              "question": "What will be the output of the following code? `print(type(()))`?",
+              "options": ["<class 'tuple'>", "<class 'list'>", "<class 'set'>", "<class 'dict'>"],
+              "answer": 0
+          },
+          {
+              "id": 13,
+              "question": "Which of the following is an immutable data type in Python?",
+              "options": ["list", "set", "tuple", "dict"],
+              "answer": 2
+          },
+          {
+              "id": 14,
+              "question": "What will be the output of the following code? `print('Python'.strip('P'))`?",
+              "options": ["ython", "Python", "Error", "None"],
+              "answer": 0
+          },
+          {
+              "id": 15,
+              "question": "What will be the output of the following code? `print(2 ** 3 ** 2)`?",
+              "options": ["64", "8", "9", "Error"],
+              "answer": 0
+          },
+          {
+              "id": 16,
+              "question": "What will be the output of the following code? `print(bool(''))`?",
+              "options": ["True", "False", "None", "Error"],
+              "answer": 1
+          },
+          {
+              "id": 17,
+              "question": "What does the `__init__` method do in a class?",
+              "options": ["Creates an object", "Initializes an object", "Deletes an object", "None"],
+              "answer": 1
+          },
+          {
+              "id": 18,
+              "question": "What is the output of `print(sum(range(1, 5)))`?",
+              "options": ["10", "15", "5", "Error"],
+              "answer": 0
+          },
+          {
+              "id": 19,
+              "question": "Which of the following is used to create a generator in Python?",
+              "options": ["[]", "{}", "()", "()()"],
+              "answer": 2
+          },
+          {
+              "id": 20,
+              "question": "What will be the output of the following code? `print({1, 2, 3} | {2, 3, 4})`?",
+              "options": ["{1, 2, 3, 4}", "{1, 2, 3}", "{2, 3}", "Error"],
+              "answer": 0
+          },
+          {
+              "id": 21,
+              "question": "What is the result of `print(3 > 2 > 1)`?",
+              "options": ["True", "False", "Error", "None"],
+              "answer": 0
+          },
+          {
+              "id": 22,
+              "question": "What is the output of the following code? `print('1' + 1)`?",
+              "options": ["'11'", "2", "Error", "None"],
+              "answer": 2
+          },
+          {
+              "id": 23,
+              "question": "What will be the output of the following code? `print(1, 2, 3, sep='-')`?",
+              "options": ["1-2-3", "1 2 3", "1, 2, 3", "Error"],
+              "answer": 0
+          },
+          {
+              "id": 24,
+              "question": "What will be the output of `print('abc'.capitalize())`?",
+              "options": ["Abc", "ABC", "abc", "Error"],
+              "answer": 0
+          },
+          {
+              "id": 25,
+              "question": "What is the output of the following code? `print(isinstance([], list))`?",
+              "options": ["True", "False", "Error", "None"],
+              "answer": 0
+          },
+          {
+              "id": 26,
+              "question": "What is the output of `print((1, 2) * 2)`?",
+              "options": ["(1, 2, 1, 2)", "(1, 2)(1, 2)", "Error", "(1, 2)"],
+              "answer": 0
+          },
+          {
+              "id": 27,
+              "question": "Which of the following is a valid way to open a file in write mode?",
+              "options": ["open('file.txt', 'r')", "open('file.txt', 'w')", "open('file.txt', 'a')", "open('file.txt', 'x')"],
+              "answer": 1
+          },
+          {
+              "id": 28,
+              "question": "What will be the output of the following code? `print(sorted([3, 1, 2]))`?",
+              "options": ["[1, 2, 3]", "[3, 2, 1]", "[1, 3, 2]", "Error"],
+              "answer": 0
+          },
+          {
+              "id": 29,
+              "question": "What is the output of `print(len([1, 2, 3, 4][::2]))`?",
+              "options": ["2", "3", "4", "1"],
+              "answer": 0
+          },
+          {
+              "id": 30,
+              "question": "What is the output of `print({x: x**2 for x in (2, 3, 4)})`?",
+              "options": ["{2: 4, 3: 9, 4: 16}", "{2: 2, 3: 3, 4: 4}", "Error", "{4: 2, 9: 3, 16: 4}"],
+              "answer": 0
+          },
+          {
+              "id": 31,
+              "question": "What will be the output of `print([x for x in range(5) if x % 2 == 0])`?",
+              "options": ["[0, 1, 2, 3, 4]", "[0, 2, 4]", "[1, 3]", "Error"],
+              "answer": 1
+          },
+          {
+              "id": 32,
+              "question": "What will be the output of `print(5 * 'a')`?",
+              "options": ["aaaaa", "5a", "Error", "'aaaaa'"],
+              "answer": 0
+          },
+          {
+              "id": 33,
+              "question": "What will be the output of `print(bool([]))`?",
+              "options": ["True", "False", "None", "Error"],
+              "answer": 1
+          },
+          {
+              "id": 34,
+              "question": "What will be the output of `print((lambda x: x)(None))`?",
+              "options": ["None", "Error", "False", "True"],
+              "answer": 0
+          },
+          {
+              "id": 35,
+              "question": "Which of the following is not a built-in Python data type?",
+              "options": ["list", "tuple", "dict", "array"],
+              "answer": 3
+          },
+          {
+              "id": 36,
+              "question": "What will be the output of `print('Hello'.upper())`?",
+              "options": ["HELLO", "hello", "Hello", "Error"],
+              "answer": 0
+          },
+          {
+              "id": 37,
+              "question": "What will be the output of `print(float('3.14'))`?",
+              "options": ["3.14", "3", "Error", "None"],
+              "answer": 0
+          },
+          {
+              "id": 38,
+              "question": "What is the result of `print(sum([1, 2, 3, 4, 5], 10))`?",
+              "options": ["15", "20", "25", "Error"],
+              "answer": 1
+          },
+          {
+              "id": 39,
+              "question": "Which method is used to remove an item from a dictionary?",
+              "options": ["delete()", "remove()", "pop()", "discard()"],
+              "answer": 2
+          }        
+      ]
+    },
+    "PHP": {
+      "Easy": [
+        {
+          "id": 0,
+          "question": "What does PHP stand for?",
+          "options": ["Personal Hypertext Processor", "PHP: Hypertext Preprocessor", "Private Home Page", "None of the above"],
+          "answer": 1
+      },
+      {
+          "id": 1,
+          "question": "Which of the following is the correct way to define a variable in PHP?",
+          "options": ["$variable_name", "variable_name$", "$variable-name", "variable$name"],
+          "answer": 0
+      },
+      {
+          "id": 2,
+          "question": "Which of the following is the correct way to create a function in PHP?",
+          "options": ["function myFunction() {}", "create function myFunction() {}", "function:myFunction() {}", "myFunction() = function() {}"],
+          "answer": 0
+      },
+      {
+          "id": 3,
+          "question": "What is the correct way to include a file in PHP?",
+          "options": ["include 'file.php';", "require('file.php');", "import 'file.php';", "Both A and B"],
+          "answer": 3
+      },
+      {
+          "id": 4,
+          "question": "Which symbol is used for comments in PHP?",
+          "options": ["//", "#", "/*...*/", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 5,
+          "question": "How do you start a PHP block?",
+          "options": ["<?php", "<php>", "<? block>", "<?PHP"],
+          "answer": 0
+      },
+      {
+          "id": 6,
+          "question": "Which of the following functions is used to get the length of a string in PHP?",
+          "options": ["strlen()", "str_length()", "length()", "getLength()"],
+          "answer": 0
+      },
+      {
+          "id": 7,
+          "question": "What will the following code output? `echo 5 + 3;`",
+          "options": ["8", "53", "Error", "None"],
+          "answer": 0
+      },
+      {
+          "id": 8,
+          "question": "How do you declare an array in PHP?",
+          "options": ["array[]", "array{}", "[]", "array()"],
+          "answer": 3
+      },
+      {
+          "id": 9,
+          "question": "Which of the following is not a valid PHP data type?",
+          "options": ["Integer", "Boolean", "Object", "Character"],
+          "answer": 3
+      },
+      {
+          "id": 10,
+          "question": "What is the default file extension for PHP files?",
+          "options": [".php", ".html", ".txt", ".xml"],
+          "answer": 0
+      },
+      {
+          "id": 11,
+          "question": "Which function is used to convert a string to a number in PHP?",
+          "options": ["intval()", "strval()", "number()", "floatval()"],
+          "answer": 0
+      },
+      {
+          "id": 12,
+          "question": "How do you declare a constant in PHP?",
+          "options": ["define('CONSTANT', value);", "const CONSTANT = value;", "constant CONSTANT = value;", "Both A and B"],
+          "answer": 3
+      },
+      {
+          "id": 13,
+          "question": "What will the following code output? `echo 'Hello World';`",
+          "options": ["Hello World", "HelloWorld", "Error", "None"],
+          "answer": 0
+      },
+      {
+          "id": 14,
+          "question": "Which superglobal variable is used to collect form data?",
+          "options": ["$_POST", "$_GET", "$_REQUEST", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 15,
+          "question": "Which function is used to include a file in PHP, and if it fails, the script will stop?",
+          "options": ["include()", "require()", "require_once()", "Both B and C"],
+          "answer": 3
+      },
+      {
+          "id": 16,
+          "question": "How do you create an associative array in PHP?",
+          "options": ["$array = array('key' => 'value');", "$array = ('key' => 'value');", "$array = array('key' = 'value');", "$array['key'] = 'value';"],
+          "answer": 0
+      },
+      {
+          "id": 17,
+          "question": "Which of the following is used to handle errors in PHP?",
+          "options": ["try-catch", "error_log()", "set_error_handler()", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 18,
+          "question": "How do you retrieve a session variable in PHP?",
+          "options": ["$_SESSION['variable']", "$session['variable']", "session['variable']", "get_session('variable')"],
+          "answer": 0
+      },
+      {
+          "id": 19,
+          "question": "Which of the following is a correct way to start a session in PHP?",
+          "options": ["start_session();", "session_start();", "init_session();", "None of the above"],
+          "answer": 1
+      },
+      {
+          "id": 20,
+          "question": "What does the `count()` function do in PHP?",
+          "options": ["Counts the number of elements in an array", "Returns the length of a string", "Counts the number of words in a string", "All of the above"],
+          "answer": 0
+      },
+      {
+          "id": 21,
+          "question": "Which of the following is a valid comparison operator in PHP?",
+          "options": ["==", "===", "!=", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 22,
+          "question": "Which function is used to read a file in PHP?",
+          "options": ["file_get_contents()", "read_file()", "get_file()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 23,
+          "question": "What will the following code output? `echo 10 % 3;`",
+          "options": ["1", "3", "2", "0"],
+          "answer": 2
+      },
+      {
+          "id": 24,
+          "question": "Which of the following is the correct way to create a new object in PHP?",
+          "options": ["$object = new ClassName;", "$object = ClassName();", "$object = new ClassName();", "$object = create ClassName();"],
+          "answer": 2
+      },
+      {
+          "id": 25,
+          "question": "How do you access a class property in PHP?",
+          "options": ["$class->property", "class.property", "$class::property", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 26,
+          "question": "What is the correct way to declare an interface in PHP?",
+          "options": ["interface MyInterface {}", "MyInterface interface {}", "declare interface MyInterface {}", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 27,
+          "question": "Which of the following is not a valid way to loop through an array in PHP?",
+          "options": ["foreach", "for", "while", "loop"],
+          "answer": 3
+      },
+      {
+          "id": 28,
+          "question": "What is the output of `echo 2 ** 3;`?",
+          "options": ["8", "6", "Error", "None"],
+          "answer": 0
+      },
+      {
+          "id": 29,
+          "question": "How do you concatenate strings in PHP?",
+          "options": ["string1 + string2", "string1 . string2", "string1 & string2", "string1 append string2"],
+          "answer": 1
+      },
+      {
+          "id": 30,
+          "question": "Which of the following is a valid array function in PHP?",
+          "options": ["array_push()", "array_pop()", "array_merge()", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 31,
+          "question": "What is the output of `echo isset($variable);` if $variable is not defined?",
+          "options": ["1", "0", "Error", "None"],
+          "answer": 1
+      },
+      {
+          "id": 32,
+          "question": "How do you end a PHP statement?",
+          "options": [";", ".", ",", "{"],
+          "answer": 0
+      },
+      {
+          "id": 33,
+          "question": "Which of the following keywords is used to define a class in PHP?",
+          "options": ["class", "def", "function", "object"],
+          "answer": 0
+      },
+      {
+          "id": 34,
+          "question": "What will the following code output? `echo (bool) '0';`",
+          "options": ["True", "False", "0", "1"],
+          "answer": 1
+      },
+      {
+          "id": 35,
+          "question": "Which of the following functions can be used to delete a session variable?",
+          "options": ["unset()", "delete()", "session_destroy()", "Both A and C"],
+          "answer": 3
+      },
+      {
+          "id": 36,
+          "question": "What will the following code output? `echo strlen('Hello');`",
+          "options": ["5", "4", "Hello", "None"],
+          "answer": 0
+      },
+      {
+          "id": 37,
+          "question": "Which function is used to check if a variable is an array?",
+          "options": ["is_array()", "check_array()", "array_check()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 38,
+          "question": "What will the following code output? `echo round(3.7);`",
+          "options": ["4", "3", "3.7", "None"],
+          "answer": 0
+      },
+      {
+          "id": 39,
+          "question": "What is the purpose of the `die()` function in PHP?",
+          "options": ["To exit the script", "To terminate the program", "To stop all output", "All of the above"],
+          "answer": 0
+      }
+      ],
+      "Normal": [
+        {
+          "id": 0,
+          "question": "What is the output of the following PHP code? `echo 5 == '5';`",
+          "options": ["True", "False", "Error", "None"],
+          "answer": 0
+      },
+      {
+          "id": 1,
+          "question": "Which of the following functions can be used to check if a variable is set?",
+          "options": ["isset()", "empty()", "is_null()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 2,
+          "question": "Which of the following is a valid way to define an array in PHP?",
+          "options": ["$array = array();", "$array = [];", "$array = new Array();", "Both A and B"],
+          "answer": 3
+      },
+      {
+          "id": 3,
+          "question": "What is the output of `echo (10 == '10.0');`?",
+          "options": ["True", "False", "0", "1"],
+          "answer": 0
+      },
+      {
+          "id": 4,
+          "question": "How can you access the first element of an array named `$array`?",
+          "options": ["$array[0]", "$array{0}", "$array.first()", "$array.first"],
+          "answer": 0
+      },
+      {
+          "id": 5,
+          "question": "Which of the following is a correct way to declare a class in PHP?",
+          "options": ["class MyClass {}", "MyClass class {}", "declare class MyClass {}", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 6,
+          "question": "Which operator is used for string concatenation in PHP?",
+          "options": [".", "+", "&", "||"],
+          "answer": 0
+      },
+      {
+          "id": 7,
+          "question": "What will the following code output? `echo gettype(10.5);`",
+          "options": ["double", "int", "float", "number"],
+          "answer": 2
+      },
+      {
+          "id": 8,
+          "question": "How can you create a cookie in PHP?",
+          "options": ["setcookie('name', 'value');", "cookie('name', 'value');", "create_cookie('name', 'value');", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 9,
+          "question": "What does the `explode()` function do in PHP?",
+          "options": ["Splits a string into an array", "Combines an array into a string", "Reverses a string", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 10,
+          "question": "How do you retrieve the value of a form field named 'username' in PHP?",
+          "options": ["$_POST['username']", "$_GET['username']", "$username", "Both A and B"],
+          "answer": 3
+      },
+      {
+          "id": 11,
+          "question": "Which of the following statements is used to stop script execution in PHP?",
+          "options": ["exit;", "stop;", "break;", "return;"],
+          "answer": 0
+      },
+      {
+          "id": 12,
+          "question": "Which PHP function is used to find the length of an array?",
+          "options": ["count()", "length()", "size()", "array_length()"],
+          "answer": 0
+      },
+      {
+          "id": 13,
+          "question": "What will the following code output? `echo 5 + '5 apples';`",
+          "options": ["10", "Error", "5 apples", "5"],
+          "answer": 0
+      },
+      {
+          "id": 14,
+          "question": "Which of the following is the correct way to define a class constant?",
+          "options": ["const NAME = 'value';", "define('NAME', 'value');", "static NAME = 'value';", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 15,
+          "question": "What does the `array_merge()` function do?",
+          "options": ["Merges two or more arrays", "Sorts an array", "Counts elements in an array", "Reverses an array"],
+          "answer": 0
+      },
+      {
+          "id": 16,
+          "question": "What is the output of `echo 3 <=> 2;`?",
+          "options": ["1", "0", "-1", "Error"],
+          "answer": 2
+      },
+      {
+          "id": 17,
+          "question": "What is the correct way to declare a private method in PHP?",
+          "options": ["private function myMethod() {}", "function myMethod() private {}", "protected myMethod() {}", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 18,
+          "question": "How can you check if a variable is an integer in PHP?",
+          "options": ["is_integer()", "is_int()", "Both A and B", "None of the above"],
+          "answer": 2
+      },
+      {
+          "id": 19,
+          "question": "What will the following code output? `echo 5 / 2;`?",
+          "options": ["2.5", "2", "2.0", "3"],
+          "answer": 0
+      },
+      {
+          "id": 20,
+          "question": "Which of the following is used to handle exceptions in PHP?",
+          "options": ["try-catch", "throw-catch", "except", "All of the above"],
+          "answer": 0
+      },
+      {
+          "id": 21,
+          "question": "How do you define a default value for a function parameter in PHP?",
+          "options": ["function myFunction($param = 'default') {}", "function myFunction($param: 'default') {}", "function myFunction($param 'default') {}", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 22,
+          "question": "What is the output of `echo 10 . 20;`?",
+          "options": ["1020", "30", "Error", "None"],
+          "answer": 0
+      },
+      {
+          "id": 23,
+          "question": "Which of the following functions can be used to sort an array in PHP?",
+          "options": ["sort()", "asort()", "ksort()", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 24,
+          "question": "How can you remove an element from an array in PHP?",
+          "options": ["unset()", "remove()", "delete()", "All of the above"],
+          "answer": 0
+      },
+      {
+          "id": 25,
+          "question": "What does the `implode()` function do?",
+          "options": ["Joins array elements into a string", "Splits a string into an array", "Reverses a string", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 26,
+          "question": "Which of the following is a valid way to define a variable scope?",
+          "options": ["Global", "Local", "Static", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 27,
+          "question": "What is the output of `echo (bool) 0;`?",
+          "options": ["True", "False", "0", "1"],
+          "answer": 1
+      },
+      {
+          "id": 28,
+          "question": "Which of the following is the correct way to declare a trait in PHP?",
+          "options": ["trait MyTrait {}", "MyTrait trait {}", "declare trait MyTrait {}", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 29,
+          "question": "What will the following code output? `echo '2' == 2;`?",
+          "options": ["True", "False", "0", "1"],
+          "answer": 0
+      },
+      {
+          "id": 30,
+          "question": "Which function is used to convert a string to lowercase in PHP?",
+          "options": ["strtolower()", "lowercase()", "str_lower()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 31,
+          "question": "How do you end a session in PHP?",
+          "options": ["session_end();", "session_destroy();", "end_session();", "None of the above"],
+          "answer": 1
+      },
+      {
+          "id": 32,
+          "question": "What is the output of `echo ceil(4.1);`?",
+          "options": ["4", "5", "4.1", "Error"],
+          "answer": 1
+      },
+      {
+          "id": 33,
+          "question": "Which of the following is used to define an interface in PHP?",
+          "options": ["interface MyInterface {}", "MyInterface interface {}", "declare interface MyInterface {}", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 34,
+          "question": "What does the `strip_tags()` function do?",
+          "options": ["Removes HTML and PHP tags from a string", "Encodes HTML characters", "Strips whitespace from a string", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 35,
+          "question": "Which of the following functions can be used to send a header in PHP?",
+          "options": ["header()", "set_header()", "send_header()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 36,
+          "question": "What will the following code output? `echo (3 + 4) * 2;`?",
+          "options": ["14", "10", "7", "Error"],
+          "answer": 1
+      },
+      {
+          "id": 37,
+          "question": "How can you check if a string contains a substring in PHP?",
+          "options": ["strpos()", "contains()", "str_contains()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 38,
+          "question": "Which of the following is used to create a constant in PHP?",
+          "options": ["define()", "const", "Both A and B", "None of the above"],
+          "answer": 2
+      },
+      {
+          "id": 39,
+          "question": "What will the following code output? `echo round(3.6);`?",
+          "options": ["4", "3", "3.5", "None"],
+          "answer": 0
+      }
+      ],
+      "Hard": [
+        {
+          "id": 0,
+          "question": "What is the output of the following code? `var_dump(1 == '1');`",
+          "options": ["int(1)", "bool(true)", "bool(false)", "Error"],
+          "answer": 1
+      },
+      {
+          "id": 1,
+          "question": "Which of the following is the correct way to declare a namespace in PHP?",
+          "options": ["namespace MyNamespace;", "namespace MyNamespace {}", "namespace: MyNamespace;", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 2,
+          "question": "What will be the output of `echo (5 == '5' && 5 === '5');`?",
+          "options": ["1", "0", "True", "False"],
+          "answer": 1
+      },
+      {
+          "id": 3,
+          "question": "Which function is used to start a session in PHP?",
+          "options": ["session_start()", "start_session()", "begin_session()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 4,
+          "question": "How do you define a class constant in PHP?",
+          "options": ["const NAME = 'value';", "define('NAME', 'value');", "static NAME = 'value';", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 5,
+          "question": "What is the output of the following code? `echo isset($var);` when $var is not defined?",
+          "options": ["True", "False", "1", "0"],
+          "answer": 3
+      },
+      {
+          "id": 6,
+          "question": "Which of the following statements is used to include a file in PHP?",
+          "options": ["include 'file.php';", "require 'file.php';", "Both A and B", "None of the above"],
+          "answer": 2
+      },
+      {
+          "id": 7,
+          "question": "What is the purpose of the `__construct()` method in a class?",
+          "options": ["It initializes the object", "It destroys the object", "It defines a constant", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 8,
+          "question": "Which of the following can be used to connect to a MySQL database in PHP?",
+          "options": ["mysqli_connect()", "PDO", "Both A and B", "None of the above"],
+          "answer": 2
+      },
+      {
+          "id": 9,
+          "question": "What will the following code output? `echo 1 + '2.5';`?",
+          "options": ["3.5", "3", "4", "Error"],
+          "answer": 0
+      },
+      {
+          "id": 10,
+          "question": "Which of the following is NOT a valid way to create an array in PHP?",
+          "options": ["$arr = array();", "$arr = []; ", "$arr = new Array();", "$arr = new array();"],
+          "answer": 3
+      },
+      {
+          "id": 11,
+          "question": "What is the output of `echo (int) '12.34';`?",
+          "options": ["12", "12.34", "Error", "0"],
+          "answer": 0
+      },
+      {
+          "id": 12,
+          "question": "What will be the output of `echo (3 > 2) ? 'yes' : 'no';`?",
+          "options": ["yes", "no", "True", "False"],
+          "answer": 0
+      },
+      {
+          "id": 13,
+          "question": "Which of the following is used to handle errors in PHP?",
+          "options": ["try-catch", "throw", "Both A and B", "None of the above"],
+          "answer": 2
+      },
+      {
+          "id": 14,
+          "question": "What does the `get_class()` function do?",
+          "options": ["Gets the class name of an object", "Creates a new class", "Deletes a class", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 15,
+          "question": "Which of the following is a valid closure in PHP?",
+          "options": ["$closure = function() { return 1; };", "function() { return 1; }", "closure() { return 1; }", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 16,
+          "question": "What will the following code output? `echo str_replace('world', 'PHP', 'Hello world!');`?",
+          "options": ["Hello world!", "Hello PHP!", "Error", "Hello"],
+          "answer": 1
+      },
+      {
+          "id": 17,
+          "question": "How can you declare an interface in PHP?",
+          "options": ["interface MyInterface {}", "MyInterface interface {}", "declare interface MyInterface {}", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 18,
+          "question": "What is the output of `echo 5 % 2;`?",
+          "options": ["1", "2", "0", "5"],
+          "answer": 0
+      },
+      {
+          "id": 19,
+          "question": "How do you define a method that cannot be overridden in PHP?",
+          "options": ["final function myMethod() {}", "static function myMethod() {}", "protected function myMethod() {}", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 20,
+          "question": "Which of the following statements is used to output content in PHP?",
+          "options": ["echo", "print", "Both A and B", "None of the above"],
+          "answer": 2
+      },
+      {
+          "id": 21,
+          "question": "What is the correct way to define a property in a class?",
+          "options": ["public $property;", "property $property;", "var $property;", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 22,
+          "question": "Which of the following functions is used to sanitize input in PHP?",
+          "options": ["htmlspecialchars()", "filter_input()", "Both A and B", "None of the above"],
+          "answer": 2
+      },
+      {
+          "id": 23,
+          "question": "What will be the output of `echo (null == '');`?",
+          "options": ["True", "False", "0", "1"],
+          "answer": 0
+      },
+      {
+          "id": 24,
+          "question": "Which of the following can be used to encrypt a string in PHP?",
+          "options": ["md5()", "sha1()", "openssl_encrypt()", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 25,
+          "question": "What is the output of `var_dump([1, 2] == [1, 2]);`?",
+          "options": ["bool(true)", "bool(false)", "array(1,2)", "Error"],
+          "answer": 0
+      },
+      {
+          "id": 26,
+          "question": "Which of the following functions can be used to retrieve the last error message in PHP?",
+          "options": ["error_get_last()", "last_error()", "get_error()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 27,
+          "question": "What is the output of `echo 1 + 2 + '3';`?",
+          "options": ["6", "3", "12", "Error"],
+          "answer": 0
+      },
+      {
+          "id": 28,
+          "question": "How can you determine the type of a variable in PHP?",
+          "options": ["gettype()", "typeof()", "var_type()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 29,
+          "question": "What will the following code output? `echo (int) '10.5 apples';`?",
+          "options": ["10", "10.5", "Error", "0"],
+          "answer": 0
+      },
+      {
+          "id": 30,
+          "question": "Which of the following is the correct way to start output buffering?",
+          "options": ["ob_start();", "start_buffer();", "output_buffer();", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 31,
+          "question": "What is the output of `echo (5 == '5.0' && 5 === '5.0');`?",
+          "options": ["1", "0", "True", "False"],
+          "answer": 1
+      },
+      {
+          "id": 32,
+          "question": "What will be the output of `echo (3 <=> 3);`?",
+          "options": ["1", "0", "-1", "Error"],
+          "answer": 1
+      },
+      {
+          "id": 33,
+          "question": "Which of the following is a way to create an anonymous function in PHP?",
+          "options": ["$func = function() {}; ", "function() {}; ", "new function() {}; ", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 34,
+          "question": "How do you declare a typed parameter in a function?",
+          "options": ["function myFunction(int $param) {}", "function myFunction($param: int) {}", "function myFunction($param) : int {}", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 35,
+          "question": "What will be the output of `echo (1 + '2.5' == 3.5);`?",
+          "options": ["True", "False", "1", "0"],
+          "answer": 0
+      },
+      {
+          "id": 36,
+          "question": "Which of the following functions can be used to check if a variable is an array?",
+          "options": ["is_array()", "array_check()", "check_array()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 37,
+          "question": "What will be the output of `echo (true == 1);`?",
+          "options": ["True", "False", "1", "0"],
+          "answer": 0
+      },
+      {
+          "id": 38,
+          "question": "What is the output of `echo (2 ** 3);`?",
+          "options": ["8", "6", "4", "Error"],
+          "answer": 0
+      },
+      {
+          "id": 39,
+          "question": "How can you create a new instance of a class in PHP?",
+          "options": ["$obj = new ClassName();", "$obj = ClassName();", "$obj = create ClassName();", "None of the above"],
+          "answer": 0
+      }    
+      ]
+    },
+    "MYSQL": {
+      "Easy": [
+        {
+          "id": 0,
+          "question": "What does SQL stand for?",
+          "options": ["Structured Query Language", "Simple Query Language", "Sequential Query Language", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 1,
+          "question": "Which command is used to create a database in MySQL?",
+          "options": ["CREATE DATABASE", "MAKE DATABASE", "NEW DATABASE", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 2,
+          "question": "What is the default port for MySQL?",
+          "options": ["3306", "8080", "5432", "1521"],
+          "answer": 0
+      },
+      {
+          "id": 3,
+          "question": "Which SQL statement is used to retrieve data from a database?",
+          "options": ["SELECT", "GET", "FETCH", "RETRIEVE"],
+          "answer": 0
+      },
+      {
+          "id": 4,
+          "question": "Which SQL clause is used to filter records?",
+          "options": ["ORDER BY", "GROUP BY", "WHERE", "HAVING"],
+          "answer": 2
+      },
+      {
+          "id": 5,
+          "question": "Which function is used to count the number of rows in a table?",
+          "options": ["COUNT()", "SUM()", "TOTAL()", "NUM()"],
+          "answer": 0
+      },
+      {
+          "id": 6,
+          "question": "What is the command to delete a database in MySQL?",
+          "options": ["DROP DATABASE", "DELETE DATABASE", "REMOVE DATABASE", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 7,
+          "question": "Which command is used to add a new row in a table?",
+          "options": ["INSERT INTO", "ADD ROW", "NEW ROW", "CREATE ROW"],
+          "answer": 0
+      },
+      {
+          "id": 8,
+          "question": "What is the purpose of the JOIN clause?",
+          "options": ["To combine rows from two or more tables", "To delete rows", "To create a new table", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 9,
+          "question": "Which SQL statement is used to update existing data in a table?",
+          "options": ["UPDATE", "MODIFY", "CHANGE", "EDIT"],
+          "answer": 0
+      },
+      {
+          "id": 10,
+          "question": "What is the purpose of the GROUP BY clause?",
+          "options": ["To aggregate data", "To sort data", "To filter data", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 11,
+          "question": "Which SQL keyword is used to sort the result set?",
+          "options": ["SORT BY", "ORDER BY", "GROUP BY", "FILTER BY"],
+          "answer": 1
+      },
+      {
+          "id": 12,
+          "question": "What type of data is used to store text in MySQL?",
+          "options": ["VARCHAR", "TEXT", "CHAR", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 13,
+          "question": "Which function is used to retrieve the maximum value from a column?",
+          "options": ["MAX()", "HIGHEST()", "TOP()", "LARGEST()"],
+          "answer": 0
+      },
+      {
+          "id": 14,
+          "question": "Which command is used to create a table in MySQL?",
+          "options": ["CREATE TABLE", "MAKE TABLE", "NEW TABLE", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 15,
+          "question": "What is the purpose of the WHERE clause?",
+          "options": ["To specify conditions", "To join tables", "To order results", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 16,
+          "question": "Which SQL function is used to return the current date?",
+          "options": ["NOW()", "CURRENT_DATE()", "DATE()", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 17,
+          "question": "What is the purpose of the DISTINCT keyword?",
+          "options": ["To eliminate duplicate values", "To select all values", "To sort values", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 18,
+          "question": "Which operator is used to compare values in SQL?",
+          "options": ["=", "<>", "<", ">"],
+          "answer": 0
+      },
+      {
+          "id": 19,
+          "question": "What is the correct syntax for creating an index?",
+          "options": ["CREATE INDEX index_name ON table_name (column_name);", "ADD INDEX index_name ON table_name (column_name);", "INDEX index_name ON table_name (column_name);", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 20,
+          "question": "Which of the following is NOT a SQL data type?",
+          "options": ["VARCHAR", "INT", "FLOAT", "STRING"],
+          "answer": 3
+      },
+      {
+          "id": 21,
+          "question": "How can you prevent SQL injection attacks?",
+          "options": ["Using prepared statements", "Validating user input", "Both A and B", "None of the above"],
+          "answer": 2
+      },
+      {
+          "id": 22,
+          "question": "Which command is used to view all databases in MySQL?",
+          "options": ["SHOW DATABASES;", "VIEW DATABASES;", "LIST DATABASES;", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 23,
+          "question": "What will be the output of `SELECT 1 + 1;`?",
+          "options": ["2", "Error", "1", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 24,
+          "question": "Which of the following statements is used to remove a row from a table?",
+          "options": ["DELETE", "REMOVE", "DROP", "TRUNCATE"],
+          "answer": 0
+      },
+      {
+          "id": 25,
+          "question": "Which clause is used to specify the maximum number of records returned?",
+          "options": ["LIMIT", "TOP", "MAX", "COUNT"],
+          "answer": 0
+      },
+      {
+          "id": 26,
+          "question": "Which SQL statement is used to create a view?",
+          "options": ["CREATE VIEW", "MAKE VIEW", "NEW VIEW", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 27,
+          "question": "Which operator is used to select values within a range?",
+          "options": ["BETWEEN", "IN", "LIKE", "ALL"],
+          "answer": 0
+      },
+      {
+          "id": 28,
+          "question": "What is the correct SQL syntax for updating a record?",
+          "options": ["UPDATE table_name SET column_name = value;", "MODIFY table_name SET column_name = value;", "CHANGE table_name SET column_name = value;", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 29,
+          "question": "Which function is used to return the sum of a numeric column?",
+          "options": ["SUM()", "TOTAL()", "ADD()", "COUNT()"],
+          "answer": 0
+      },
+      {
+          "id": 30,
+          "question": "What does the acronym CRUD stand for?",
+          "options": ["Create, Read, Update, Delete", "Create, Read, Upload, Delete", "Create, Retrieve, Update, Delete", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 31,
+          "question": "Which of the following is a valid SELECT statement?",
+          "options": ["SELECT * FROM table_name;", "SELECT ALL FROM table_name;", "SELECT table_name ALL;", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 32,
+          "question": "What is the purpose of the LIMIT clause?",
+          "options": ["To restrict the number of rows returned", "To restrict the size of the database", "To limit the execution time", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 33,
+          "question": "Which SQL keyword is used to give a name to a table column?",
+          "options": ["AS", "WITH", "NAME", "IDENTIFIED"],
+          "answer": 0
+      },
+      {
+          "id": 34,
+          "question": "What is the correct SQL syntax to rename a table?",
+          "options": ["ALTER TABLE old_table_name RENAME TO new_table_name;", "RENAME TABLE old_table_name TO new_table_name;", "MODIFY TABLE old_table_name TO new_table_name;", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 35,
+          "question": "Which function is used to get the last inserted ID?",
+          "options": ["LAST_INSERT_ID()", "GET_LAST_ID()", "GET_ID()", "NEW_ID()"],
+          "answer": 0
+      },
+      {
+          "id": 36,
+          "question": "What is the purpose of the HAVING clause?",
+          "options": ["To filter records after grouping", "To join tables", "To order results", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 37,
+          "question": "What is a foreign key?",
+          "options": ["A field that links two tables together", "A primary key in another table", "Both A and B", "None of the above"],
+          "answer": 2
+      },
+      {
+          "id": 38,
+          "question": "What is the purpose of the INSERT INTO statement?",
+          "options": ["To add new records to a table", "To modify existing records", "To delete records", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 39,
+          "question": "Which SQL statement is used to create a stored procedure?",
+          "options": ["CREATE PROCEDURE", "MAKE PROCEDURE", "NEW PROCEDURE", "None of the above"],
+          "answer": 0
+      }
+      ],
+      "Normal": [
+        {
+          "id": 0,
+          "question": "What is a primary key in MySQL?",
+          "options": ["A unique identifier for a record", "A field that can have null values", "A field used for foreign key constraints", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 1,
+          "question": "Which command is used to modify the structure of an existing table?",
+          "options": ["ALTER TABLE", "CHANGE TABLE", "MODIFY TABLE", "UPDATE TABLE"],
+          "answer": 0
+      },
+      {
+          "id": 2,
+          "question": "What is a foreign key?",
+          "options": ["A key used to link two tables", "A key that can accept null values", "A key that must be unique", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 3,
+          "question": "Which SQL statement is used to create a view?",
+          "options": ["CREATE VIEW", "ADD VIEW", "NEW VIEW", "DEFINE VIEW"],
+          "answer": 0
+      },
+      {
+          "id": 4,
+          "question": "What is the purpose of the JOIN clause?",
+          "options": ["To combine rows from two or more tables", "To filter rows", "To aggregate data", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 5,
+          "question": "Which SQL command is used to remove all records from a table without deleting the table?",
+          "options": ["TRUNCATE", "DELETE", "DROP", "CLEAR"],
+          "answer": 0
+      },
+      {
+          "id": 6,
+          "question": "Which clause is used to specify conditions in SQL?",
+          "options": ["WHERE", "HAVING", "FILTER", "GROUP BY"],
+          "answer": 0
+      },
+      {
+          "id": 7,
+          "question": "What is the result of the following SQL statement: SELECT ROUND(123.456, 2);?",
+          "options": ["123.46", "123.45", "123", "Error"],
+          "answer": 0
+      },
+      {
+          "id": 8,
+          "question": "Which SQL function is used to retrieve the average value of a numeric column?",
+          "options": ["AVG()", "MEAN()", "SUM()", "COUNT()"],
+          "answer": 0
+      },
+      {
+          "id": 9,
+          "question": "How do you add a comment in SQL?",
+          "options": ["-- This is a comment", "# This is a comment", "// This is a comment", "/* This is a comment */"],
+          "answer": 0
+      },
+      {
+          "id": 10,
+          "question": "What is the correct syntax for creating an index?",
+          "options": ["CREATE INDEX index_name ON table_name (column_name);", "ADD INDEX index_name TO table_name (column_name);", "INDEX index_name ON table_name (column_name);", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 11,
+          "question": "Which statement is used to update a record in a table?",
+          "options": ["UPDATE", "MODIFY", "CHANGE", "SET"],
+          "answer": 0
+      },
+      {
+          "id": 12,
+          "question": "What is the purpose of the LIMIT clause?",
+          "options": ["To restrict the number of records returned", "To filter records based on conditions", "To join tables", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 13,
+          "question": "Which SQL function is used to find the minimum value in a column?",
+          "options": ["MIN()", "LOWEST()", "LEAST()", "SMALLEST()"],
+          "answer": 0
+      },
+      {
+          "id": 14,
+          "question": "What is the default sorting order of the ORDER BY clause?",
+          "options": ["Ascending", "Descending", "Random", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 15,
+          "question": "What is a stored procedure?",
+          "options": ["A set of SQL statements saved in the database", "A single SQL statement", "An error handling mechanism", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 16,
+          "question": "What does the acronym SQL stand for?",
+          "options": ["Structured Query Language", "Sequential Query Language", "Simple Query Language", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 17,
+          "question": "Which SQL statement is used to create a new table?",
+          "options": ["CREATE TABLE", "NEW TABLE", "ADD TABLE", "DEFINE TABLE"],
+          "answer": 0
+      },
+      {
+          "id": 18,
+          "question": "Which of the following statements is used to retrieve data from a database?",
+          "options": ["SELECT", "GET", "FETCH", "All of the above"],
+          "answer": 0
+      },
+      {
+          "id": 19,
+          "question": "Which operator is used to select values within a range?",
+          "options": ["BETWEEN", "LIKE", "IN", "ALL"],
+          "answer": 0
+      },
+      {
+          "id": 20,
+          "question": "What is the purpose of the GROUP BY clause?",
+          "options": ["To group rows that have the same values in specified columns", "To order rows", "To filter rows", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 21,
+          "question": "Which of the following statements is used to delete a table?",
+          "options": ["DROP TABLE", "DELETE TABLE", "REMOVE TABLE", "CLEAR TABLE"],
+          "answer": 0
+      },
+      {
+          "id": 22,
+          "question": "What is the correct SQL syntax for renaming a table?",
+          "options": ["ALTER TABLE old_table_name RENAME TO new_table_name;", "RENAME TABLE old_table_name TO new_table_name;", "CHANGE TABLE old_table_name TO new_table_name;", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 23,
+          "question": "Which function is used to return the current date?",
+          "options": ["NOW()", "CURRENT_DATE()", "DATE()", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 24,
+          "question": "What will be the result of the following SQL statement: SELECT 1 + 1;",
+          "options": ["2", "1", "0", "Error"],
+          "answer": 0
+      },
+      {
+          "id": 25,
+          "question": "Which command is used to display all databases in MySQL?",
+          "options": ["SHOW DATABASES;", "VIEW DATABASES;", "LIST DATABASES;", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 26,
+          "question": "What is a composite key?",
+          "options": ["A key made up of two or more columns", "A single primary key", "A foreign key", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 27,
+          "question": "Which SQL clause is used to specify the condition for a join?",
+          "options": ["ON", "WHERE", "JOIN", "GROUP BY"],
+          "answer": 0
+      },
+      {
+          "id": 28,
+          "question": "Which of the following is NOT a valid SQL data type?",
+          "options": ["VARCHAR", "TEXT", "STRING", "INT"],
+          "answer": 2
+      },
+      {
+          "id": 29,
+          "question": "Which SQL keyword is used to define a default value for a column?",
+          "options": ["DEFAULT", "SET", "INIT", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 30,
+          "question": "What is the purpose of the HAVING clause?",
+          "options": ["To filter records after aggregation", "To join tables", "To order results", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 31,
+          "question": "What is the correct syntax to count the number of rows in a table?",
+          "options": ["SELECT COUNT(*) FROM table_name;", "SELECT TOTAL(*) FROM table_name;", "SELECT NUMBER(*) FROM table_name;", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 32,
+          "question": "Which SQL statement is used to create a trigger?",
+          "options": ["CREATE TRIGGER", "NEW TRIGGER", "ADD TRIGGER", "DEFINE TRIGGER"],
+          "answer": 0
+      },
+      {
+          "id": 33,
+          "question": "What is the purpose of the UNION operator?",
+          "options": ["To combine the results of two or more SELECT statements", "To join tables", "To filter records", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 34,
+          "question": "Which SQL command is used to start a transaction?",
+          "options": ["START TRANSACTION", "BEGIN TRANSACTION", "INITIATE TRANSACTION", "All of the above"],
+          "answer": 0
+      },
+      {
+          "id": 35,
+          "question": "What is the purpose of the SET clause in an UPDATE statement?",
+          "options": ["To specify the columns to be updated", "To filter the records to be updated", "To set the order of updates", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 36,
+          "question": "Which SQL function is used to return the highest value in a column?",
+          "options": ["MAX()", "HIGHEST()", "GREATEST()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 37,
+          "question": "What is the purpose of the DISTINCT keyword?",
+          "options": ["To return unique values only", "To order results", "To filter results", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 38,
+          "question": "Which clause is used to specify which columns to include in the result set?",
+          "options": ["SELECT", "FROM", "WHERE", "ORDER BY"],
+          "answer": 0
+      },
+      {
+          "id": 39,
+          "question": "What is the correct syntax to insert a new record into a table?",
+          "options": ["INSERT INTO table_name (columns) VALUES (values);", "ADD INTO table_name (columns) VALUES (values);", "PUT INTO table_name (columns) VALUES (values);", "None of the above"],
+          "answer": 0
+      }
+      ],
+      "Hard": [
+        {
+          "id": 0,
+          "question": "What is the purpose of the EXPLAIN statement?",
+          "options": ["To describe how MySQL executes a query", "To display database metadata", "To optimize a database", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 1,
+          "question": "Which of the following is true about MySQL's InnoDB storage engine?",
+          "options": ["Supports transactions", "Does not support foreign keys", "Is faster than MyISAM for read operations", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 2,
+          "question": "What is a stored function in MySQL?",
+          "options": ["A subroutine that can return a value", "A predefined SQL command", "A type of view", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 3,
+          "question": "How can you retrieve the last inserted ID in MySQL?",
+          "options": ["LAST_INSERT_ID()", "GET_LAST_ID()", "RETURN_ID()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 4,
+          "question": "What is the default storage engine for MySQL?",
+          "options": ["InnoDB", "MyISAM", "HEAP", "MEMORY"],
+          "answer": 0
+      },
+      {
+          "id": 5,
+          "question": "Which SQL clause can be used to filter grouped records?",
+          "options": ["HAVING", "WHERE", "GROUP BY", "FILTER"],
+          "answer": 0
+      },
+      {
+          "id": 6,
+          "question": "What does the MySQL command 'SHOW STATUS;' display?",
+          "options": ["Current status of the server", "Database structure", "Table data", "User privileges"],
+          "answer": 0
+      },
+      {
+          "id": 7,
+          "question": "Which of the following can be used to manage user privileges in MySQL?",
+          "options": ["GRANT", "REVOKE", "SHOW GRANTS", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 8,
+          "question": "What is the purpose of the `ROLLBACK` command?",
+          "options": ["To undo transactions", "To commit transactions", "To create a new transaction", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 9,
+          "question": "What does the term ACID stand for in database management?",
+          "options": ["Atomicity, Consistency, Isolation, Durability", "Action, Consistency, Integrity, Durability", "Atomic, Consistent, Independent, Durable", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 10,
+          "question": "What type of index is used to enforce uniqueness in a column?",
+          "options": ["UNIQUE index", "PRIMARY index", "FULLTEXT index", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 11,
+          "question": "What is the result of executing 'SELECT NULL = NULL;' in MySQL?",
+          "options": ["TRUE", "FALSE", "NULL", "Error"],
+          "answer": 2
+      },
+      {
+          "id": 12,
+          "question": "Which command can be used to lock a table in MySQL?",
+          "options": ["LOCK TABLES", "BEGIN LOCK", "TABLE LOCK", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 13,
+          "question": "What is the effect of using the 'DISTINCT' keyword in a SELECT statement?",
+          "options": ["Removes duplicate rows from the result set", "Returns all rows", "Filters rows based on conditions", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 14,
+          "question": "Which SQL function is used to get the length of a string?",
+          "options": ["LENGTH()", "STRLEN()", "SIZE()", "CHAR_LENGTH()"],
+          "answer": 0
+      },
+      {
+          "id": 15,
+          "question": "What is the purpose of a trigger in MySQL?",
+          "options": ["To automatically execute a set of actions when a specified event occurs", "To optimize queries", "To manage user permissions", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 16,
+          "question": "What is the function of the `GROUP_CONCAT()` in MySQL?",
+          "options": ["To concatenate values from multiple rows into a single string", "To group rows by a specific column", "To aggregate numeric values", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 17,
+          "question": "How can you find the total number of rows in a table?",
+          "options": ["SELECT COUNT(*) FROM table_name;", "SELECT TOTAL_ROWS FROM table_name;", "SELECT NUMBER OF ROWS FROM table_name;", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 18,
+          "question": "What is the purpose of the 'EXISTS' operator?",
+          "options": ["To check if a subquery returns any rows", "To check for NULL values", "To count rows", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 19,
+          "question": "Which MySQL command is used to create a backup of a database?",
+          "options": ["mysqldump", "BACKUP DATABASE", "EXPORT DATABASE", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 20,
+          "question": "Which command is used to unlock a table in MySQL?",
+          "options": ["UNLOCK TABLES", "END LOCK", "RELEASE LOCK", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 21,
+          "question": "What is a 'composite index'?",
+          "options": ["An index on multiple columns", "An index with duplicate values", "An index with no values", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 22,
+          "question": "What does the `ALTER TABLE` command allow you to do?",
+          "options": ["Change the structure of an existing table", "Delete a table", "Create a new table", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 23,
+          "question": "What is the use of the 'UNION ALL' operator?",
+          "options": ["To combine the results of two or more SELECT statements including duplicates", "To combine the results without duplicates", "To filter results", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 24,
+          "question": "Which function is used to format a date in MySQL?",
+          "options": ["DATE_FORMAT()", "FORMAT_DATE()", "FORMAT()", "TO_DATE()"],
+          "answer": 0
+      },
+      {
+          "id": 25,
+          "question": "What does the `HAVING` clause do?",
+          "options": ["Filters groups after aggregation", "Filters individual rows", "Combines results", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 26,
+          "question": "Which of the following is a valid MySQL data type for a JSON column?",
+          "options": ["JSON", "VARCHAR", "TEXT", "BLOB"],
+          "answer": 0
+      },
+      {
+          "id": 27,
+          "question": "How can you retrieve data from a temporary table?",
+          "options": ["SELECT * FROM temp_table_name;", "SELECT * FROM TEMPORARY temp_table_name;", "SELECT * FROM TEMP temp_table_name;", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 28,
+          "question": "What is the purpose of the 'FOREIGN KEY' constraint?",
+          "options": ["To link two tables together", "To enforce uniqueness", "To define default values", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 29,
+          "question": "Which command is used to set a database in MySQL?",
+          "options": ["USE database_name;", "SET database_name;", "SELECT database_name;", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 30,
+          "question": "What does the `NOW()` function return?",
+          "options": ["Current date and time", "Current date", "Current time", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 31,
+          "question": "What is the purpose of the 'COALESCE' function?",
+          "options": ["To return the first non-null value", "To count rows", "To concatenate strings", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 32,
+          "question": "Which of the following SQL statements is used to update data in a table?",
+          "options": ["UPDATE table_name SET column_name = value WHERE condition;", "MODIFY table_name SET column_name = value WHERE condition;", "EDIT table_name SET column_name = value WHERE condition;", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 33,
+          "question": "How do you implement a recursive common table expression (CTE) in MySQL?",
+          "options": ["WITH RECURSIVE cte_name AS (...)", "WITH cte_name AS (...)", "CREATE cte_name AS (...)", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 34,
+          "question": "What is the purpose of the 'SET GLOBAL' command?",
+          "options": ["To change server variables globally", "To change session variables", "To create a new database", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 35,
+          "question": "Which SQL clause is used to specify conditions for the results returned from a query?",
+          "options": ["WHERE", "HAVING", "FILTER", "GROUP BY"],
+          "answer": 0
+      },
+      {
+          "id": 36,
+          "question": "What is the purpose of the 'EXPLAIN ANALYZE' command?",
+          "options": ["To analyze the performance of a query", "To explain query execution", "To show metadata", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 37,
+          "question": "What type of join returns all records from the left table and matched records from the right table?",
+          "options": ["LEFT JOIN", "INNER JOIN", "RIGHT JOIN", "FULL OUTER JOIN"],
+          "answer": 0
+      },
+      {
+          "id": 38,
+          "question": "Which command is used to drop an index in MySQL?",
+          "options": ["DROP INDEX index_name ON table_name;", "REMOVE INDEX index_name ON table_name;", "DELETE INDEX index_name ON table_name;", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 39,
+          "question": "What is the maximum length of a VARCHAR column in MySQL?",
+          "options": ["65,535 bytes", "255 characters", "32,767 characters", "None of the above"],
+          "answer": 0
+      }   
+      ]
+    },
+    "JAVASCRIPT": {
+      "Easy": [
+        {
+          "id": 0,
+          "question": "What is the correct syntax to print 'Hello World' in JavaScript?",
+          "options": ["print('Hello World');", "console.log('Hello World');", "echo 'Hello World';", "write('Hello World');"],
+          "answer": 1
+      },
+      {
+          "id": 1,
+          "question": "Which of the following is a valid variable declaration in JavaScript?",
+          "options": ["var name;", "let name;", "const name;", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 2,
+          "question": "Which operator is used to assign a value to a variable?",
+          "options": ["=", "==", "===", "=>"],
+          "answer": 0
+      },
+      {
+          "id": 3,
+          "question": "How do you create a function in JavaScript?",
+          "options": ["function myFunction()", "function:myFunction()", "create myFunction()", "def myFunction()"],
+          "answer": 0
+      },
+      {
+          "id": 4,
+          "question": "What is the correct way to declare an array in JavaScript?",
+          "options": ["var fruits = ['apple', 'banana'];", "var fruits = ('apple', 'banana');", "var fruits = 'apple', 'banana';", "var fruits = new Array('apple', 'banana');"],
+          "answer": 0
+      },
+      {
+          "id": 5,
+          "question": "What will the following code output? console.log(typeof 'Hello');",
+          "options": ["string", "String", "text", "undefined"],
+          "answer": 0
+      },
+      {
+          "id": 6,
+          "question": "How can you add a comment in JavaScript?",
+          "options": ["// This is a comment", "# This is a comment", "<!-- This is a comment -->", "/* This is a comment */"],
+          "answer": 0
+      },
+      {
+          "id": 7,
+          "question": "Which of the following methods can be used to convert a string to a number in JavaScript?",
+          "options": ["Number()", "parseInt()", "parseFloat()", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 8,
+          "question": "What will the following code return? Boolean(0);",
+          "options": ["true", "false", "undefined", "NaN"],
+          "answer": 1
+      },
+      {
+          "id": 9,
+          "question": "What is the purpose of the 'this' keyword in JavaScript?",
+          "options": ["Refers to the current object", "Refers to the global object", "Refers to a function", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 10,
+          "question": "Which of the following is NOT a JavaScript data type?",
+          "options": ["Number", "String", "Character", "Boolean"],
+          "answer": 2
+      },
+      {
+          "id": 11,
+          "question": "Which statement is used to stop a loop in JavaScript?",
+          "options": ["break", "stop", "exit", "return"],
+          "answer": 0
+      },
+      {
+          "id": 12,
+          "question": "How do you create an object in JavaScript?",
+          "options": ["var obj = {};", "var obj = [];", "var obj = new Object();", "Both A and C"],
+          "answer": 3
+      },
+      {
+          "id": 13,
+          "question": "What is the correct way to write a conditional statement in JavaScript?",
+          "options": ["if x = 5", "if (x == 5)", "if x == 5 then", "if (x = 5)"],
+          "answer": 1
+      },
+      {
+          "id": 14,
+          "question": "Which function is used to parse a string into an integer?",
+          "options": ["parseInt()", "convertToInt()", "toInt()", "Integer.parse()"],
+          "answer": 0
+      },
+      {
+          "id": 15,
+          "question": "How can you create a new array in JavaScript?",
+          "options": ["var arr = new Array();", "var arr = [];", "var arr = Array();", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 16,
+          "question": "What does the `push()` method do?",
+          "options": ["Adds an element to the end of an array", "Removes the last element of an array", "Sorts the array", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 17,
+          "question": "What is the output of the following code? console.log(2 + '2');",
+          "options": ["22", "4", "TypeError", "undefined"],
+          "answer": 0
+      },
+      {
+          "id": 18,
+          "question": "Which of the following methods can be used to remove the last element from an array?",
+          "options": ["pop()", "removeLast()", "shift()", "slice()"],
+          "answer": 0
+      },
+      {
+          "id": 19,
+          "question": "What does the `length` property of an array return?",
+          "options": ["The number of elements in the array", "The type of array", "The first element of the array", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 20,
+          "question": "How do you access the first element of an array named 'arr'?",
+          "options": ["arr[0]", "arr[1]", "arr.first()", "arr(0)"],
+          "answer": 0
+      },
+      {
+          "id": 21,
+          "question": "What will the following code output? console.log(NaN === NaN);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 1
+      },
+      {
+          "id": 22,
+          "question": "Which event occurs when the user clicks on an HTML element?",
+          "options": ["onclick", "onchange", "onmouseover", "onerror"],
+          "answer": 0
+      },
+      {
+          "id": 23,
+          "question": "What is the correct syntax for a 'for' loop in JavaScript?",
+          "options": ["for (i = 0; i < 5; i++) {}", "for (i < 5; i++) {}", "for (i = 0; i++; i < 5) {}", "for i in range(5)"],
+          "answer": 0
+      },
+      {
+          "id": 24,
+          "question": "What will the following code output? console.log(1 == '1');",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 25,
+          "question": "Which keyword is used to declare a constant in JavaScript?",
+          "options": ["let", "const", "var", "define"],
+          "answer": 1
+      },
+      {
+          "id": 26,
+          "question": "What is the output of the following code? console.log(0 == false);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 27,
+          "question": "Which built-in method combines the text of two strings and returns a new string?",
+          "options": ["concat()", "append()", "merge()", "combine()"],
+          "answer": 0
+      },
+      {
+          "id": 28,
+          "question": "What does the `slice()` method do in JavaScript?",
+          "options": ["Extracts a section of an array and returns a new array", "Adds an element to the end of an array", "Removes an element from an array", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 29,
+          "question": "How do you declare a variable that can change its value?",
+          "options": ["const x;", "let x;", "static x;", "var x;"],
+          "answer": 1
+      },
+      {
+          "id": 30,
+          "question": "Which function is used to convert a string to lower case?",
+          "options": ["toLowerCase()", "lowerCase()", "stringToLower()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 31,
+          "question": "What is the output of the following code? console.log(3 + 2 + '7');",
+          "options": ["57", "12", "5", "undefined"],
+          "answer": 0
+      },
+      {
+          "id": 32,
+          "question": "How do you declare a multi-line comment in JavaScript?",
+          "options": ["/* comment */", "// comment //", "// comment /*", "<!-- comment -->"],
+          "answer": 0
+      },
+      {
+          "id": 33,
+          "question": "Which symbol is used for comments in JavaScript?",
+          "options": ["//", "#", "/*", "<!--"],
+          "answer": 0
+      },
+      {
+          "id": 34,
+          "question": "Which method is used to round a number to the nearest integer?",
+          "options": ["Math.round()", "Math.floor()", "Math.ceil()", "Math.nearest()"],
+          "answer": 0
+      },
+      {
+          "id": 35,
+          "question": "What does `JSON` stand for?",
+          "options": ["JavaScript Object Notation", "JavaScript Online Notation", "Java Standard Object Notation", "Java Structured Object Notation"],
+          "answer": 0
+      },
+      {
+          "id": 36,
+          "question": "How do you create a new JavaScript object?",
+          "options": ["var obj = {};","var obj = new Object();","Both A and B","None of the above"],
+          "answer": 2
+      },
+      {
+          "id": 37,
+          "question": "Which of the following is used to call a function in JavaScript?",
+          "options": ["functionName()", "call functionName()", "invoke functionName()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 38,
+          "question": "What is the purpose of the `return` statement in a function?",
+          "options": ["To stop execution of the function", "To return a value from the function", "To continue the function", "None of the above"],
+          "answer": 1
+      },
+      {
+          "id": 39,
+          "question": "Which of the following is a valid way to create a string in JavaScript?",
+          "options": ["var str = 'Hello';", "var str = \"Hello\";", "var str = `Hello`;","All of the above"],
+          "answer": 3
+      }
+      ],
+      "Normal": [
+        {
+          "id": 0,
+          "question": "What will be the output of the following code? console.log(typeof null);",
+          "options": ["null", "object", "undefined", "TypeError"],
+          "answer": 1
+      },
+      {
+          "id": 1,
+          "question": "What does the `===` operator do?",
+          "options": ["Compares values only", "Compares both value and type", "Assigns value", "None of the above"],
+          "answer": 1
+      },
+      {
+          "id": 2,
+          "question": "Which method is used to convert a string to an array of characters?",
+          "options": ["split()", "charAt()", "join()", "slice()"],
+          "answer": 0
+      },
+      {
+          "id": 3,
+          "question": "What is a closure in JavaScript?",
+          "options": ["A way to create private variables", "A function that is called after another function", "A loop structure", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 4,
+          "question": "What is the output of the following code? console.log(2 + '2' - 1);",
+          "options": ["21", "22", "1", "TypeError"],
+          "answer": 2
+      },
+      {
+          "id": 5,
+          "question": "Which built-in method removes the last element from an array?",
+          "options": ["shift()", "pop()", "slice()", "remove()"],
+          "answer": 1
+      },
+      {
+          "id": 6,
+          "question": "What is the purpose of the `bind()` method?",
+          "options": ["To create a new function with a specified `this` value", "To add event listeners", "To remove event listeners", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 7,
+          "question": "Which of the following can be used to create an object in JavaScript?",
+          "options": ["Object literal", "Constructor function", "Class syntax", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 8,
+          "question": "How do you check if a variable is an array?",
+          "options": ["Array.isArray(variable)", "variable instanceof Array", "typeof variable === 'array'", "Both A and B"],
+          "answer": 3
+      },
+      {
+          "id": 9,
+          "question": "What will the following code output? console.log(0.1 + 0.2 === 0.3);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 1
+      },
+      {
+          "id": 10,
+          "question": "What does the `slice()` method do in an array?",
+          "options": ["Adds an element to the end", "Removes the last element", "Extracts a portion of the array", "Sorts the array"],
+          "answer": 2
+      },
+      {
+          "id": 11,
+          "question": "Which method is used to convert a JSON string into a JavaScript object?",
+          "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 12,
+          "question": "What is the output of the following code? console.log(1 + 2 + '3');",
+          "options": ["6", "33", "123", "TypeError"],
+          "answer": 2
+      },
+      {
+          "id": 13,
+          "question": "Which of the following is a way to create a promise in JavaScript?",
+          "options": ["new Promise()", "Promise.resolve()", "Promise.all()", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 14,
+          "question": "What will be the output of the following code? console.log([1] == true);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 15,
+          "question": "Which of the following methods is used to merge two arrays in JavaScript?",
+          "options": ["concat()", "merge()", "join()", "push()"],
+          "answer": 0
+      },
+      {
+          "id": 16,
+          "question": "What does the `Math.random()` function do?",
+          "options": ["Returns a random integer", "Returns a random float", "Returns a random number between 0 and 1", "Returns a random boolean"],
+          "answer": 2
+      },
+      {
+          "id": 17,
+          "question": "Which keyword is used to define a class in JavaScript?",
+          "options": ["class", "define", "function", "object"],
+          "answer": 0
+      },
+      {
+          "id": 18,
+          "question": "What does the `splice()` method do in an array?",
+          "options": ["Adds/removes items from an array", "Sorts the array", "Filters the array", "Extracts a portion of the array"],
+          "answer": 0
+      },
+      {
+          "id": 19,
+          "question": "What is the output of the following code? console.log(2 == '2');",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 20,
+          "question": "Which of the following is used to prevent default behavior of an event?",
+          "options": ["event.preventDefault()", "event.stopPropagation()", "event.returnValue()", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 21,
+          "question": "What is the output of the following code? console.log(1 == true);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 22,
+          "question": "Which method is used to find the first index of an element in an array?",
+          "options": ["indexOf()", "find()", "firstIndex()", "getIndex()"],
+          "answer": 0
+      },
+      {
+          "id": 23,
+          "question": "What is the correct way to define an asynchronous function?",
+          "options": ["function async myFunction()", "async function myFunction()", "function myFunction() async", "None of the above"],
+          "answer": 1
+      },
+      {
+          "id": 24,
+          "question": "Which of the following can throw an error in JavaScript?",
+          "options": ["throw", "try", "catch", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 25,
+          "question": "What is the output of the following code? console.log([] + []);",
+          "options": ["undefined", "", "0", "[]"],
+          "answer": 1
+      },
+      {
+          "id": 26,
+          "question": "How do you declare a variable that cannot be reassigned?",
+          "options": ["var", "let", "const", "static"],
+          "answer": 2
+      },
+      {
+          "id": 27,
+          "question": "What does the `forEach()` method do?",
+          "options": ["Executes a function for each array element", "Returns a new array", "Sorts the array", "Filters the array"],
+          "answer": 0
+      },
+      {
+          "id": 28,
+          "question": "What is the output of the following code? console.log(2 + '2' + 2);",
+          "options": ["222", "4", "TypeError", "undefined"],
+          "answer": 0
+      },
+      {
+          "id": 29,
+          "question": "What is the default value of uninitialized variables in JavaScript?",
+          "options": ["null", "undefined", "0", "false"],
+          "answer": 1
+      },
+      {
+          "id": 30,
+          "question": "What will the following code output? console.log(1 + '1' - 1);",
+          "options": ["10", "1", "0", "TypeError"],
+          "answer": 2
+      },
+      {
+          "id": 31,
+          "question": "Which of the following is the correct way to create an empty object?",
+          "options": ["var obj = {}", "var obj = new Object()", "var obj = Object.create()", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 32,
+          "question": "Which statement is used to catch exceptions in JavaScript?",
+          "options": ["catch", "try", "finally", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 33,
+          "question": "Which of the following methods is used to convert an object to a JSON string?",
+          "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "None of the above"],
+          "answer": 1
+      },
+      {
+          "id": 34,
+          "question": "Which method is used to remove the first element from an array?",
+          "options": ["pop()", "shift()", "slice()", "remove()"],
+          "answer": 1
+      },
+      {
+          "id": 35,
+          "question": "What will be the output of the following code? console.log('5' - 2);",
+          "options": ["3", "'3'", "5", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 36,
+          "question": "What is the purpose of the `setTimeout()` function?",
+          "options": ["To execute a function after a specified delay", "To execute a function repeatedly", "To cancel a timeout", "None of the above"],
+          "answer": 0
+      },
+      {
+          "id": 37,
+          "question": "What is the output of the following code? console.log(typeof NaN);",
+          "options": ["number", "NaN", "undefined", "object"],
+          "answer": 0
+      },
+      {
+          "id": 38,
+          "question": "Which of the following is a way to define an object literal?",
+          "options": ["var obj = {}", "var obj = new Object()", "Both A and B", "None of the above"],
+          "answer": 2
+      },
+      {
+          "id": 39,
+          "question": "What is the output of the following code? console.log(1 === '1');",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 1
+      }
+      ],
+      "Hard": [
+        {
+          "id": 0,
+          "question": "What will be the output of the following code? console.log(typeof typeof 1);",
+          "options": ["string", "number", "undefined", "object"],
+          "answer": 0
+      },
+      {
+          "id": 1,
+          "question": "What is the result of `([] + {}) instanceof Object`?",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 2,
+          "question": "What will be the output of the following code? console.log(0.1 + 0.2 === 0.3);",
+          "options": ["true", "false", "undefined", "NaN"],
+          "answer": 1
+      },
+      {
+          "id": 3,
+          "question": "What does the following code output? console.log([1] == true);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 4,
+          "question": "What is the output of the following code? console.log(null == undefined);",
+          "options": ["true", "false", "TypeError", "null"],
+          "answer": 0
+      },
+      {
+          "id": 5,
+          "question": "What will be the output of the following code? console.log(1 + '2' + '3');",
+          "options": ["123", "33", "TypeError", "5"],
+          "answer": 0
+      },
+      {
+          "id": 6,
+          "question": "Which of the following will cause a reference error? console.log(a); var a = 10;",
+          "options": ["undefined", "10", "ReferenceError", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 7,
+          "question": "What will be the output of the following code? console.log(1 == '1');",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 8,
+          "question": "Which of the following expressions is equivalent to `Boolean(1)`?",
+          "options": ["1", "'1'", "true", "All of the above"],
+          "answer": 3
+      },
+      {
+          "id": 9,
+          "question": "What will be the output of the following code? console.log([] == ![]);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 10,
+          "question": "What does the following code output? console.log(typeof NaN);",
+          "options": ["number", "NaN", "undefined", "object"],
+          "answer": 0
+      },
+      {
+          "id": 11,
+          "question": "What will be the output of this code? console.log(typeof (typeof 1));",
+          "options": ["string", "number", "undefined", "object"],
+          "answer": 0
+      },
+      {
+          "id": 12,
+          "question": "What will be the output of the following code? console.log({} + []);",
+          "options": ["[object Object]", "undefined", "NaN", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 13,
+          "question": "What will the following code return? console.log([1, 2] == [1, 2]);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 1
+      },
+      {
+          "id": 14,
+          "question": "What is the output of the following code? console.log([] + null);",
+          "options": ["null", "undefined", "NaN", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 15,
+          "question": "What will be the output of the following code? console.log(1 === '1');",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 1
+      },
+      {
+          "id": 16,
+          "question": "What does the following code return? console.log(typeof ({} + []));",
+          "options": ["string", "object", "array", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 17,
+          "question": "What is the output of the following code? console.log(!!'');",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 1
+      },
+      {
+          "id": 18,
+          "question": "What is the result of `0.1 + 0.2` in JavaScript?",
+          "options": ["0.3", "0.30000000000000004", "undefined", "TypeError"],
+          "answer": 1
+      },
+      {
+          "id": 19,
+          "question": "What will the output be for the following code? console.log(0 == '0');",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 20,
+          "question": "What will be the output of this code? console.log(typeof (() => {}));",
+          "options": ["function", "undefined", "object", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 21,
+          "question": "What will the following code log? console.log([1, 2] === [1, 2]);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 1
+      },
+      {
+          "id": 22,
+          "question": "What does the following code output? console.log((function() { return typeof arguments; })());",
+          "options": ["array", "object", "undefined", "Arguments"],
+          "answer": 1
+      },
+      {
+          "id": 23,
+          "question": "What is the output of this code? console.log(typeof (function() {}));",
+          "options": ["function", "undefined", "object", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 24,
+          "question": "What does `var a = (b = 3) => { return b; }` return?",
+          "options": ["3", "undefined", "TypeError", "ReferenceError"],
+          "answer": 0
+      },
+      {
+          "id": 25,
+          "question": "What will the output of this code be? console.log(typeof []);",
+          "options": ["array", "object", "undefined", "TypeError"],
+          "answer": 1
+      },
+      {
+          "id": 26,
+          "question": "What will the following code output? console.log([2] == [2]);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 1
+      },
+      {
+          "id": 27,
+          "question": "What does the following code return? console.log(!!null);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 1
+      },
+      {
+          "id": 28,
+          "question": "What is the output of this code? console.log('1' + 1 - 1);",
+          "options": ["0", "1", "TypeError", "'11'"],
+          "answer": 0
+      },
+      {
+          "id": 29,
+          "question": "What does this code output? console.log([] == false);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 30,
+          "question": "What will the output be for the following code? console.log(3 * null);",
+          "options": ["3", "0", "undefined", "TypeError"],
+          "answer": 1
+      },
+      {
+          "id": 31,
+          "question": "What does the following code return? console.log(typeof new Object());",
+          "options": ["object", "function", "array", "undefined"],
+          "answer": 0
+      },
+      {
+          "id": 32,
+          "question": "What is the output of this code? console.log((() => 1)() == 1);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 33,
+          "question": "What will the following code log? console.log('2' + 2 + 2);",
+          "options": ["222", "6", "'22'", "undefined"],
+          "answer": 0
+      },
+      {
+          "id": 34,
+          "question": "What will the following code return? console.log((() => { return (() => 2)(); })());",
+          "options": ["2", "undefined", "TypeError", "ReferenceError"],
+          "answer": 0
+      },
+      {
+          "id": 35,
+          "question": "What does the following code output? console.log({} + []);",
+          "options": ["[object Object]", "undefined", "TypeError", "NaN"],
+          "answer": 0
+      },
+      {
+          "id": 36,
+          "question": "What will the output of this code be? console.log('1' == 1);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 0
+      },
+      {
+          "id": 37,
+          "question": "What does the following code return? console.log(!!undefined);",
+          "options": ["true", "false", "undefined", "TypeError"],
+          "answer": 1
+      },
+      {
+          "id": 38,
+          "question": "What is the output of the following code? console.log(1 / '1');",
+          "options": ["1", "undefined", "TypeError", "NaN"],
+          "answer": 0
+      },
+      {
+          "id": 39,
+          "question": "What does this code output? console.log('a' + + 'b');",
+          "options": ["NaN", "'aNaN'", "'a1'", "TypeError"],
+          "answer": 0
+      }
+      ]
+    }
+  }

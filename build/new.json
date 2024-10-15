@@ -1,0 +1,45 @@
+{
+    "C": {
+      "Easy": [
+        {
+          "id": 1,
+          "question": "What is a pointer?",
+          "options": ["Variable that stores address", "Keyword in C", "Function type"],
+          "answer": 0
+        },
+        {
+          "id": 2,
+          "question": "Which header file is needed to use printf()?",
+          "options": ["stdio.h", "stdlib.h", "string.h"],
+          "answer": 0
+        }
+      ],
+      "Normal": [
+        {
+          "id": 1,
+          "question": "What is a double pointer?",
+          "options": ["Pointer to pointer", "Pointer to integer", "Pointer to function"],
+          "answer": 0
+        }
+      ],
+      "Hard": [
+        {
+          "id": 1,
+          "question": "What is dynamic memory allocation?",
+          "options": ["Allocating memory at runtime", "Allocating memory at compile-time", "Fixed-size memory allocation"],
+          "answer": 0
+        }
+      ]
+    },
+    "JAVA": {
+      "beginner": [
+        {
+          "id": 1,
+          "question": "What is JVM?",
+          "options": ["Java Virtual Machine", "Java Variable Machine", "Java Void Method"],
+          "answer": 0
+        }
+      ]
+    }
+  }
+  

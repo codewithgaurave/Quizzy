@@ -1,0 +1,33 @@
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 60px;
+}
+.subject-list {
+  background-color: #178d72;
+  padding: 20px;
+  margin: 10px 80px;
+}
+
+.subject-list ul {
+  list-style: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.subject-list ul li {
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.subject-list ul hr {
+  width: 100%;
+  height: 5px;
+  background-color: blanchedalmond;
+  /* color:#ff00a6; */
+}

@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bImage{
+    height: 800px;
+    width: 100%;
+    /* margin-top: 10px; */
+    background: linear-gradient(rgba(62, 84, 194, 0.5), rgba(99, 138, 255, 0.726)), 
+            url('TeamError.jpg') no-repeat center center/cover;
+    position: relative;
+}
+.bImage .bell{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    top:45%;
+    left: 10%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bImage .bell .icon{
+    font-size: 50px;
+    color: yellow;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.managingTeam{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(215, 197, 197);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.managingTeam2 {
+    display: flex;
+    /* flex-direction: column;  */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color: rgb(215, 197, 197);
+    border-radius: 10px;
+    /* margin: 10px; */
+    padding: 20px;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .teamMember {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .teamMember h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #000000;
+  }
+
+  .para{
+    color:rgb(255, 145, 0);
+  }
+  
+  .teamMember .about {
+    margin: 5px 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .about {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .managingTeam {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .teamMember {
+      padding: 10px;
+    }
+  
+    .teamMember h2 {
+      font-size: 20px;
+    }
+  
+    .about {
+      font-size: 12px;
+    }
+  }
+  
